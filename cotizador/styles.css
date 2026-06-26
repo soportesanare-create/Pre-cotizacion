@@ -1,0 +1,37 @@
+*{box-sizing:border-box}
+body{font-family:Poppins, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;background:transparent;color:#1e1b1a;margin:0}
+main{max-width:1100px;margin:0 auto;background:#fff;padding:16px;border-radius:18px;box-shadow:0 16px 40px rgba(11,30,51,.10)}
+.header{display:flex;gap:16px;border-bottom:2px solid #eadfda;padding-bottom:12px;margin-bottom:16px}
+.logo{height:80px}
+.empresa h1{margin:6px 0 8px 0;font-size:22px;color:#6b3f31;letter-spacing:.5px}
+.empresa label{font-size:12px;color:#6f6a67}
+.empresa select{width:100%;padding:8px;border:1px solid #d8cdc7;border-radius:10px;background:#fffaf8}
+.tel{margin-top:6px;font-size:12px;color:#6b3f31}
+.datos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:10px 0 18px}
+.datos .full{grid-column:1/-1}
+.datos input,.datos textarea,select{width:100%;padding:10px;border:1px solid #d8cdc7;border-radius:10px;background:#fffaf8}
+h2{margin:16px 0 8px;color:#6b3f31}
+.fila{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+button{background:#6b3f31;color:#fff;border:none;padding:10px 14px;border-radius:10px;cursor:pointer}
+button:hover{opacity:.9}
+table{width:100%;border-collapse:collapse;background:#fffbf9;border-radius:12px;overflow:hidden}
+th,td{border:1px solid #eadfd9;padding:8px;text-align:center}
+.totales .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:14px}
+.totales .grid>div{background:#fff7f3;border:1px solid #eadfd9;border-radius:12px;padding:14px;display:flex;justify-content:space-between;align-items:center}
+.totales .total{grid-column:3/4;background:#e9d9d2}
+
+#buscarMed { flex:1; padding:8px; border:1px solid #d8cdc7; border-radius:8px; }
+#ordenMed { padding:8px; border:1px solid #d8cdc7; border-radius:8px; }
+
+.extras { margin-left:20px; display:flex; flex-direction:column; gap:6px; font-size:14px; }
+.extras label { font-weight:bold; margin-top:4px; }
+.extras input { padding:4px; border:1px solid #ccc; border-radius:6px; }
+
+
+.disclaimer {
+  font-size: 10px;
+  color: #6b7280;
+  text-align: center;
+  margin: 12px 0;
+  line-height: 1.3;
+}

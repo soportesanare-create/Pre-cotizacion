@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1e33" />
+  <title>Pre Cotizador · SANARÉ</title>
+  
+  <link rel="icon" href="assets/img/icon-192.png">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="assets/css/pre-cotizador.css" />
+</head>
+<body>
+  <!-- 🔐 LOGIN OVERLAY -->
+  <div id="overlay">
+    <div class="login-card">
+      <img src="cotizador/SANARE_logo.png" alt="SANARÉ Logo" onerror="this.src='SANARE_logo.png';">
+      <h2>Acceso SANARÉ</h2>
+      <p>Ingresa tus credenciales para acceder al pre cotizador.</p>
+      <div class="login-field">
+        <i class="fa-solid fa-user"></i>
+        <input id="user" class="login-input" placeholder="Usuario" type="text" autocomplete="username">
+      </div>
+      <div class="login-field">
+        <i class="fa-solid fa-lock"></i>
+        <input id="pass" class="login-input" placeholder="Contraseña" type="password" autocomplete="current-password">
+      </div>
+      <button onclick="checkLogin()" class="login-btn">Entrar</button>
+    </div>
+  </div>
+
+  <div class="pre-cotizador-container">
+    <!-- Topbar/Header -->
+    <header class="topbar-pre">
+      <div class="brand-pre">
+        <div class="logo-box">
+          <img src="cotizador/SANARE_logo.png" alt="SANARÉ Logo" onerror="this.src='SANARE_logo.png';">
+        </div>
+        <h1>Pre Cotizador SANARÉ</h1>
+      </div>
+      <div class="topbar-actions">
+        <button id="toggleThemeBtn" class="toggle-theme-btn" type="button">
+          <i class="fa-solid fa-moon"></i>
+          <span class="theme-label">Claro</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="cotizador" class="quote-shell">
+      <div class="quote-head">
+        <div>
+          <h2>Pre Cotizador SANARÉ</h2>
+          <div class="muted">Versión interna KAM para capturar, comparar y pre cotizar</div>
+        </div>
+        <div class="quote-head-actions">
+          <button class="quote-mini-btn" id="btnQuoteReset" type="button">
+            <i class="fa-solid fa-rotate-left"></i>
+            <span>Limpiar</span>
+          </button>
+          <button class="quote-print-btn" id="btnQuoteImg" type="button" style="background-color: #25D366; color: white;">
+            <i class="fa-solid fa-image"></i>
+            <span>Imagen</span>
+          </button>
+          <button class="quote-print-btn" id="btnQuotePrint" type="button">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Generar PDF</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="quote-banner">
+        <div>
+          <strong id="quotePreparedBy">Pre cotización preparada por Corporativo</strong>
+          <div class="small">Esta pre cotización es únicamente de consulta y no es válida para autorización final; requiere validación de BI y del equipo químico antes de emitirse.</div>
+        </div>
+        <div class="quote-pill" id="quoteStatus">Lista para capturar</div>
+      </div>
+
+      <div class="quote-grid">
+        <!-- Formulario -->
+        <div class="card-flat">
+          <div class="section-title">Datos generales</div>
+          <div class="quote-fields">
+            <div>
+              <label class="lbl" for="qPatient">Nombre del paciente</label>
+              <input class="input" id="qPatient" type="text" placeholder="Nombre del paciente" />
+            </div>
+            <div>
+              <label class="lbl" for="qDoctor">Nombre del médico</label>
+              <input class="input" id="qDoctor" type="text" placeholder="Nombre del médico" />
+            </div>
+            <div>
+              <label class="lbl" for="qInsurance">Aseguradora</label>
+              <input class="input" id="qInsurance" type="text" placeholder="Pago de bolsillo" />
+            </div>
+            <div>
+              <label class="lbl" for="qKam">KAM / Realizado por</label>
+              <input class="input" id="qKam" type="text" placeholder="Corporativo / Nombre" />
+            </div>
+            <div>
+              <label class="lbl" for="qIssueDate">Fecha de emisión</label>
+              <input class="input" id="qIssueDate" type="date" />
+            </div>
+            <div>
+              <label class="lbl" for="qValidDate">Válido hasta</label>
+              <input class="input" id="qValidDate" type="date" />
+            </div>
+            <div>
+              <label class="lbl" for="qScheduleDate">Fecha de programación</label>
+              <input class="input" id="qScheduleDate" type="date" />
+            </div>
+            <div>
+              <label class="lbl" for="qAddress">Sede</label>
+              <select class="input" id="qAddress"></select>
+            </div>
+            <div class="quote-full">
+              <label class="lbl" for="qPhone">Teléfono de sede</label>
+              <input class="input" id="qPhone" type="text" placeholder="Teléfono de la sede" readonly />
+            </div>
+            <div class="quote-full">
+              <label class="lbl" for="qDx">DX / Comentarios</label>
+              <textarea class="input quote-area" id="qDx" placeholder="Diagnóstico / comentarios"></textarea>
+            </div>
+            <div class="quote-full">
+              <label class="lbl" for="qScheme">Esquema o tratamiento</label>
+              <input class="input" id="qScheme" type="text" placeholder="Ej. OXALIPLATINO" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Resumen Rápido -->
+        <div class="card-flat">
+          <div class="section-title">Resumen rápido</div>
+          <div class="quote-stats">
+            <div class="quote-stat">
+              <div class="small">Medicamentos</div>
+              <strong id="statMedCount">0</strong>
+            </div>
+            <div class="quote-stat">
+              <div class="small">Servicios</div>
+              <strong id="statServCount">0</strong>
+            </div>
+            <div class="quote-stat">
+              <div class="small">Total</div>
+              <strong id="statTotal">$ 0.00</strong>
+            </div>
+          </div>
+
+          <div class="quote-hint">
+            Captura al paciente, agrega medicamentos y servicios, y genera la pre cotización en PDF o imagen desde esta misma vista.
+          </div>
+
+          <div class="mini-list">
+            <div class="mini-item">
+              <span>1</span>
+              <div>Busca medicamentos por nombre o código.</div>
+            </div>
+            <div class="mini-item">
+              <span>2</span>
+              <div>Aplica servicios con descuento cuando sea necesario.</div>
+            </div>
+            <div class="mini-item">
+              <span>3</span>
+              <div>El total calcula IVA solo sobre servicios.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Medicamentos y Servicios -->
+      <div class="quote-grid lower">
+        <!-- Medicamentos -->
+        <div class="card-flat">
+          <div class="section-title">Medicamentos</div>
+          <div class="toolbar-grid">
+            <input class="input" id="qMedSearch" type="text" placeholder="Buscar medicamento o código..." />
+            <select class="input" id="qMedSort">
+              <option value="nombre">Ordenar A–Z</option>
+              <option value="precio">Ordenar por precio</option>
+            </select>
+          </div>
+          <div class="toolbar-grid add-row">
+            <select class="input" id="qMedSelect"></select>
+            <input class="input qty" id="qMedQty" type="number" min="1" value="1" />
+            <button class="primary toolbar-btn" id="qAddMed" type="button" style="margin-top:0">Agregar medicamento</button>
+          </div>
+          <div class="table-wrap">
+            <table class="quote-table" id="qMedTable">
+              <thead>
+                <tr><th>Medicamento</th><th>Código</th><th>Cant.</th><th>P. unitario</th><th>Subtotal</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Servicios -->
+        <div class="card-flat">
+          <div class="section-title">Servicios</div>
+          <div class="toolbar-grid">
+            <input class="input" id="qServSearch" type="text" placeholder="Buscar servicio..." />
+            <select class="input" id="qServSort">
+              <option value="nombre">Ordenar A–Z</option>
+              <option value="precio">Ordenar por precio</option>
+            </select>
+          </div>
+          <div class="toolbar-grid add-row service-row">
+            <select class="input" id="qServSelect"></select>
+            <input class="input qty" id="qServQty" type="number" min="1" value="1" />
+            <input class="input qty" id="qServDiscount" type="number" min="0" max="100" value="0" placeholder="Desc. %" />
+            <button class="primary toolbar-btn" id="qAddServ" type="button" style="margin-top:0">Agregar servicio</button>
+          </div>
+          <div class="table-wrap">
+            <table class="quote-table" id="qServTable">
+              <thead>
+                <tr><th>Servicio</th><th>Cant.</th><th>P. unitario</th><th>Desc.</th><th>Total</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+
+          <div class="totals-card">
+            <div><span>Subtotal</span><strong id="qSubtotal">$ 0.00</strong></div>
+            <div><span>IVA servicios (16%)</span><strong id="qIVA">$ 0.00</strong></div>
+            <div class="grand"><span>TOTAL</span><strong id="qTotal">$ 0.00</strong></div>
+          </div>
+
+          <div class="disclaimer-qr-container">
+            <p class="quote-legal disclaimer-text">
+              La presente pre cotización es únicamente de consulta interna y no constituye una propuesta válida para autorización final. Requiere validación previa de BI y del equipo químico. Cualquier ajuste clínico, operativo o económico podrá modificar los importes mostrados; el IVA aplica únicamente sobre servicios.
+            </p>
+            <img class="qr-en-contenido" src="assets/qr_sanare.png" alt="QR Sanaré (informativo)" onerror="this.src='cotizador/SANARE_logo.png';">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  
+  <!-- Firebase Compat Libraries -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  
+  <script src="assets/js/pre-cotizador-data.js"></script>
+  <script src="assets/js/pre-cotizador-app.js"></script>
+  <script src="assets/js/firebase-init.js"></script>
+</body>
+</html>
