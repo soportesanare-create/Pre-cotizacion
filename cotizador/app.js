@@ -32,7 +32,7 @@ function init(){
   const mm = String(today.getMonth()+1).padStart(2,'0');
   const yyyy = today.getFullYear();
   $('#fechaEmision').value = `${yyyy}-${mm}-${dd}`;
-  const validez = new Date(today); validez.setDate(validez.getDate()+15);
+  const validez = new Date(today); validez.setDate(validez.getDate()+30);
   const ddv = String(validez.getDate()).padStart(2,'0');
   const mmv = String(validez.getMonth()+1).padStart(2,'0');
   const yyyv = validez.getFullYear();
