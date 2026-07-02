@@ -319,7 +319,7 @@ function initNativeQuote(){
 
   const profile = loadJSON(LS_PROFILE);
   if(!state.info.issueDate) state.info.issueDate = quoteToday(0);
-  if(!state.info.validDate) state.info.validDate = quoteToday(15);
+  if(!state.info.validDate) state.info.validDate = quoteToday(30);
   if(!state.info.kam){
     state.info.kam = (profile.name || profile.email || "Corporativo").trim();
   }
@@ -513,7 +513,7 @@ function initNativeQuote(){
       patient:"", doctor:"", insurance:"",
       kam: (profileData.name || profileData.email || "Corporativo").trim(),
       issueDate: quoteToday(0),
-      validDate: quoteToday(15),
+      validDate: quoteToday(30),
       scheduleDate:"",
       address: DATA.direcciones?.[0] || "",
       phone: quotePhoneForAddress(DATA.direcciones?.[0] || ""),
