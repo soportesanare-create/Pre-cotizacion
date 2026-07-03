@@ -11,6 +11,11 @@ window.SANARE_PRE_COT_DATA = {
       "precio": 86167
     },
     {
+      "ean": "7501082243697",
+      "nombre": "KISUNLA 350MG/20ML",
+      "precio": 29933.00
+    },
+    {
       "ean": "7501165002784",
       "nombre": "RILUTEK 50MG C/56 TABLETAS",
       "precio": 0
