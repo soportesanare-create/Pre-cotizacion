@@ -10,7 +10,7 @@
     "oscar": "Osca1104",
     "anayely": "Ana1105",
     "dayana": "Daya1106",
-    "Maky": "Mak1107"
+    "maky": "Mak1107"
   };
 
   // State keys
