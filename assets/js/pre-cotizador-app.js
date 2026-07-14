@@ -46,6 +46,37 @@
     });
   }
 
+  // 💰 Pricing Mode Helper
+  // Returns 'bolsillo' if Pago de bolsillo selected, else 'aseguradora'
+  function getPricingMode() {
+    const val = (state.info.insurance || '').trim();
+    return (val === '' || val === 'Pago de bolsillo') ? 'bolsillo' : 'aseguradora';
+  }
+
+  // Surcharge multiplier for services when insurer is selected
+  const SERV_INSURANCE_SURCHARGE = 1.15; // +15%
+
+  // Get the correct price for a data item given current pricing mode
+  // Pass isService=true to apply the 15% insurer surcharge on services
+  function getPriceForItem(item, isService = false) {
+    const mode = getPricingMode();
+    if (mode === 'bolsillo') {
+      const base = item.precio_bolsillo != null ? Number(item.precio_bolsillo) : Number(item.precio || 0);
+      return base;
+    } else {
+      // Aseguradora mode
+      if (!isService) {
+        // Medicamentos: use precio_aseguradora from Excel if available
+        if (item.precio_aseguradora != null) return Number(item.precio_aseguradora);
+        return Number(item.precio || 0);
+      } else {
+        // Servicios: base price + 15% surcharge
+        const base = Number(item.precio || 0);
+        return base * SERV_INSURANCE_SURCHARGE;
+      }
+    }
+  }
+
   function getTodayString(offsetDays = 0) {
     const d = new Date();
     d.setDate(d.getDate() + offsetDays);
@@ -121,7 +152,52 @@
       saveState();
       updatePreparedBy();
       updateStatus();
+      // If insurance changes, reprice cart and refresh dropdowns
+      if (key === 'insurance') {
+        repriceCart();
+        if (typeof window._refreshMedDropdown === 'function') window._refreshMedDropdown();
+        if (typeof window._refreshServDropdown === 'function') window._refreshServDropdown();
+      }
     });
+  }
+
+  // Reprice all cart items when insurance type changes
+  function repriceCart() {
+    const DATA = window.SANARE_PRE_COT_DATA || { medicamentos: [], servicios: [] };
+    const mode = getPricingMode();
+
+    // Build lookup by EAN
+    const medLookup = {};
+    (DATA.medicamentos || []).forEach(m => {
+      if (m.ean) medLookup[m.ean] = m;
+    });
+    const servLookup = {};
+    (DATA.servicios || []).forEach(s => {
+      if (s.servicio) servLookup[s.servicio] = s;
+    });
+
+    state.meds = state.meds.map(item => {
+      const src = medLookup[item.ean];
+      if (!src) return item;
+      if (mode === 'bolsillo' && src.precio_bolsillo != null) {
+        return { ...item, precio: Number(src.precio_bolsillo) };
+      } else if (mode === 'aseguradora' && src.precio_aseguradora != null) {
+        return { ...item, precio: Number(src.precio_aseguradora) };
+      }
+      return { ...item, precio: Number(src.precio || 0) };
+    });
+
+    state.services = state.services.map(item => {
+      const src = servLookup[item.servicio];
+      if (!src) return item;
+      // Services: base precio (bolsillo), then +15% for insurer
+      const basePrice = Number(src.precio || 0);
+      const newPrice = mode === 'aseguradora' ? basePrice * SERV_INSURANCE_SURCHARGE : basePrice;
+      return { ...item, precio: newPrice };
+    });
+
+    saveState();
+    renderTables();
   }
 
   function updatePreparedBy() {
@@ -143,7 +219,14 @@
     // Populate simple inputs
     if ($('#qPatient')) $('#qPatient').value = state.info.patient;
     if ($('#qDoctor')) $('#qDoctor').value = state.info.doctor;
-    if ($('#qInsurance')) $('#qInsurance').value = state.info.insurance;
+    // Insurance: restore selected option in <select>
+    const insEl = $('#qInsurance');
+    if (insEl) {
+      const savedIns = state.info.insurance || 'Pago de bolsillo';
+      // Try to set the matching option; if not found keep default
+      const matchOpt = Array.from(insEl.options).find(o => o.value === savedIns);
+      insEl.value = matchOpt ? savedIns : 'Pago de bolsillo';
+    }
     if ($('#qKam')) $('#qKam').value = state.info.kam;
     if ($('#qIssueDate')) $('#qIssueDate').value = state.info.issueDate;
     if ($('#qValidDate')) $('#qValidDate').value = state.info.validDate;
@@ -280,19 +363,33 @@
       );
 
       if (sort === "precio") {
-        list.sort((a, b) => Number(b.precio || 0) - Number(a.precio || 0));
+        list.sort((a, b) => getPriceForItem(b) - getPriceForItem(a));
       } else {
         list.sort((a, b) => String(a.nombre).localeCompare(String(b.nombre), "es"));
       }
 
+      const mode = getPricingMode();
+      const modeLabel = mode === 'bolsillo' ? '💰 Bolsillo' : '🏥 Aseguradora';
+
       select.innerHTML = "";
       list.slice(0, 300).forEach(m => {
+        const displayPrice = getPriceForItem(m);
         const opt = document.createElement("option");
-        opt.value = JSON.stringify({ ean: m.ean, nombre: m.nombre, precio: Number(m.precio || 0) });
-        opt.textContent = `${m.ean || "—"} — ${m.nombre} — ${formatMoney(m.precio || 0)}`;
+        // Store all prices + mode at add time so reprice can work
+        opt.value = JSON.stringify({
+          ean: m.ean,
+          nombre: m.nombre,
+          precio: displayPrice,
+          precio_bolsillo: m.precio_bolsillo != null ? Number(m.precio_bolsillo) : null,
+          precio_aseguradora: m.precio_aseguradora != null ? Number(m.precio_aseguradora) : null
+        });
+        opt.textContent = `${m.ean || "—"} — ${m.nombre} — ${formatMoney(displayPrice)}`;
         select.appendChild(opt);
       });
     }
+
+    // Expose so bindField can refresh after insurance changes
+    window._refreshMedDropdown = updateMedDropdown;
 
     $('#qMedSearch')?.addEventListener("input", updateMedDropdown);
     $('#qMedSort')?.addEventListener("change", updateMedDropdown);
@@ -322,21 +419,31 @@
       );
 
       if (sort === "precio") {
-        list.sort((a, b) => Number(b.precio || 0) - Number(a.precio || 0));
+        list.sort((a, b) => getPriceForItem(b, true) - getPriceForItem(a, true));
       } else {
         list.sort((a, b) => String(a.servicio).localeCompare(String(b.servicio), "es"));
       }
 
+      const mode = getPricingMode();
+
       select.innerHTML = "";
       list.forEach(s => {
         const opt = document.createElement("option");
-        opt.value = JSON.stringify({ servicio: s.servicio, precio: Number(s.precio || 0) });
-        opt.textContent = `${s.servicio} — ${formatMoney(s.precio || 0)}`;
+        const displayPrice = getPriceForItem(s, true); // isService=true → aplica +15% si aseguradora
+        opt.value = JSON.stringify({
+          servicio: s.servicio,
+          precio: displayPrice,
+          precio_base: Number(s.precio || 0)  // guardamos base para repreciar correctamente
+        });
+        opt.textContent = `${s.servicio} — ${formatMoney(displayPrice)}${mode === 'aseguradora' ? ' (+15%)' : ''}`;
         select.appendChild(opt);
       });
 
       handleServiceDiscount();
     }
+
+    // Expose so bindField can refresh after insurance changes
+    window._refreshServDropdown = updateServDropdown;
 
     $('#qServSearch')?.addEventListener("input", updateServDropdown);
     $('#qServSort')?.addEventListener("change", updateServDropdown);
@@ -735,7 +842,7 @@
     // Bind other inputs
     bindField('#qPatient', 'patient');
     bindField('#qDoctor', 'doctor');
-    bindField('#qInsurance', 'insurance');
+    bindField('#qInsurance', 'insurance');  // select — triggers repriceCart on change
     bindField('#qKam', 'kam');
     bindField('#qIssueDate', 'issueDate');
     bindField('#qValidDate', 'validDate');

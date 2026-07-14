@@ -1,4 +1,4 @@
-window.SANARE_PRE_COT_DATA = {
+﻿window.SANARE_PRE_COT_DATA = {
   "medicamentos": [
     {
       "ean": "Código de Barras EAN",
@@ -60,11 +60,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ACIDO FOLINICO 50MG/4ML CAJ C/1 FA(FOCIDAT)",
       "precio": 0
     },
-    {
-      "ean": "7501125165573",
-      "nombre": "ACIDO FOLINICO 50MG/4ML CAJ C/1 FA(INNEFOL)",
-      "precio": 548.8
-    },
+    { "ean": "7501125165573", "nombre": "ACIDO FOLINICO 50MG/4ML CAJ C/1 FA(INNEFOL)", "precio": 548.8, "precio_bolsillo": 588.75, "precio_aseguradora": 672.8571 },
     {
       "ean": "7501094916268",
       "nombre": "ACIDO ZOLEDRONICO 5MG/100ML CAJ C/1 FA(ACLASTA)",
@@ -75,31 +71,15 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(ZOMETA)",
       "precio": 7910.74
     },
-    {
-      "ean": "7501299342015",
-      "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(ZOLNIC)",
-      "precio": 4947.02
-    },
-    {
-      "ean": "7502223555082",
-      "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(LEZOMIV)",
-      "precio": 4430.737345555998
-    },
-    {
-      "ean": "7506335700552",
-      "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(OXFON)",
-      "precio": 1500
-    },
+    { "ean": "7501299342015", "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(ZOLNIC)", "precio": 4947.02, "precio_bolsillo": 4084.6154, "precio_aseguradora": 5554 },
+    { "ean": "7502223555082", "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(LEZOMIV)", "precio": 4430.737345555998, "precio_bolsillo": 778.4615, "precio_aseguradora": 4641 },
+    { "ean": "7506335700552", "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(OXFON)", "precio": 1500, "precio_bolsillo": 1127.6923, "precio_aseguradora": 3000 },
     {
       "ean": "7506442701077",
       "nombre": "ACIDO ZOLEDRONICO 4MG/5ML CAJ C/1 FA(PRISHA)",
       "precio": 0
     },
-    {
-      "ean": "7501165009417",
-      "nombre": "AFLIBERCEPT 100MG/4ML CAJ C/1 FA(ZALTRAP ZIV)",
-      "precio": 17221.75
-    },
+    { "ean": "7501165009417", "nombre": "AFLIBERCEPT 100MG/4ML CAJ C/1 FA(ZALTRAP ZIV)", "precio": 17221.75, "precio_bolsillo": 20266.2875, "precio_aseguradora": 23161.4714 },
     {
       "ean": "7506404300195",
       "nombre": "ALBUMINA HUMANA 10MG/50ML CAJ C/1 FA(ALBUMINA HUMANA)",
@@ -175,36 +155,16 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "TRINITRATO DE GLICERILO 50MG/50ML CAJ C/1 FA(ANGIOPOHL)",
       "precio": 767.47
     },
-    {
-      "ean": "7502216935389",
-      "nombre": "RITUXIMAB 100MG/10ML CAJ C/2 FA(ARASAMILA)",
-      "precio": 13202.05
-    },
-    {
-      "ean": "7502216935372",
-      "nombre": "RITUXIMAB 500MG/50ML CAJ C/1 FA(ARASAMILA)",
-      "precio": 35113.846153846156
-    },
+    { "ean": "7502216935389", "nombre": "RITUXIMAB 100MG/10ML CAJ C/2 FA(ARASAMILA)", "precio": 13202.05, "precio_bolsillo": 12877.5, "precio_aseguradora": 14717.1429 },
+    { "ean": "7502216935372", "nombre": "RITUXIMAB 500MG/50ML CAJ C/1 FA(ARASAMILA)", "precio": 35113.846153846156, "precio_bolsillo": 35132.3385, "precio_aseguradora": 34641.24 },
     {
       "ean": "75005023",
       "nombre": "L-ASPARAGINASA 10000UI/10ML CAJ C/1 FA(LEUNASE)",
       "precio": 0
     },
-    {
-      "ean": "7613326004947",
-      "nombre": "ATEZOLIZUMAB 1200MG/20ML CAJ C/1 FA(TECENTRIQ)",
-      "precio": 124966
-    },
-    {
-      "ean": "7501125124365",
-      "nombre": "ATROPINA 1MG/1ML CAJ C/1 FA(ATROPISA)",
-      "precio": 0
-    },
-    {
-      "ean": "4054839462023",
-      "nombre": "AVELUMAB 200MG/10ML CAJ C/1 FA(BAVENCIO)",
-      "precio": 29772.26
-    },
+    { "ean": "7613326004947", "nombre": "ATEZOLIZUMAB 1200MG/20ML CAJ C/1 FA(TECENTRIQ)", "precio": 124966, "precio_bolsillo": 129375, "precio_aseguradora": 147857.1429 },
+    { "ean": "7501125124365", "nombre": "ATROPINA 1MG/1ML CAJ C/1 FA(ATROPISA)", "precio": 0, "precio_bolsillo": 1098.9011, "precio_aseguradora": 714.2857 },
+    { "ean": "4054839462023", "nombre": "AVELUMAB 200MG/10ML CAJ C/1 FA(BAVENCIO)", "precio": 29772.26, "precio_bolsillo": 33647.5, "precio_aseguradora": 38454.2857 },
     {
       "ean": "7501287609724",
       "nombre": "AXITINIB 5MG CAJ C/60 TAB(INLYTA)",
@@ -215,11 +175,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "AXITINIB 1MG CAJ C/180 TAB(INLYTA)",
       "precio": 74275.38461538461
     },
-    {
-      "ean": "7730979094566",
-      "nombre": "AZACITIDINA 100MG/4ML CAJ C/1 FA(VIDAZA)",
-      "precio": 11730
-    },
+    { "ean": "7730979094566", "nombre": "AZACITIDINA 100MG/4ML CAJ C/1 FA(VIDAZA)", "precio": 11730, "precio_bolsillo": 14163.75, "precio_aseguradora": 16187.1429 },
     {
       "ean": "7501043100496",
       "nombre": "BELIMUMAB 120MG/5ML CAJ C/1 FA(BENLYSTIA)",
@@ -230,26 +186,10 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "BELIMUMAB 400MG/8ML CAJ C/1 FA(BENLYSTIA)",
       "precio": 0
     },
-    {
-      "ean": "7501109929313",
-      "nombre": "BENDAMUSTINA 25MG/10ML CAJ C/1 FA(RIBOBUSTAN)",
-      "precio": 7221
-    },
-    {
-      "ean": "7501559610007",
-      "nombre": "BENDAMUSTINA 100MG/4ML CAJ C/1 FA(GLINDEKA)",
-      "precio": 12266.153846153846
-    },
-    {
-      "ean": "7613326005449",
-      "nombre": "BEVACIZUMAB 100mg/4ML CAJ C/1 FA(AVASTIN)",
-      "precio": 14808
-    },
-    {
-      "ean": "7613326005456",
-      "nombre": "BEVACIZUMAB 400mg/16ML CAJ C/1 FA(AVASTIN)",
-      "precio": 54081
-    },
+    { "ean": "7501109929313", "nombre": "BENDAMUSTINA 25MG/10ML CAJ C/1 FA(RIBOBUSTAN)", "precio": 7221, "precio_bolsillo": 9386.25, "precio_aseguradora": 10727.1429 },
+    { "ean": "7501559610007", "nombre": "BENDAMUSTINA 100MG/4ML CAJ C/1 FA(GLINDEKA)", "precio": 12266.153846153846, "precio_bolsillo": 12678.4615, "precio_aseguradora": 12015 },
+    { "ean": "7613326005449", "nombre": "BEVACIZUMAB 100mg/4ML CAJ C/1 FA(AVASTIN)", "precio": 14808, "precio_bolsillo": 18905, "precio_aseguradora": 21605.7143 },
+    { "ean": "7613326005456", "nombre": "BEVACIZUMAB 400mg/16ML CAJ C/1 FA(AVASTIN)", "precio": 54081, "precio_bolsillo": 69075, "precio_aseguradora": 78942.8571 },
     {
       "ean": "7501324402820",
       "nombre": "BICALUTAMIDA 50MG CAJ C/28 TAB(CASODEX)",
@@ -285,16 +225,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "BORTEZOMIB 3.5MG/3.5ML CAJ C/1 FA(BEMONCAZ)",
       "precio": 7272.138461538461
     },
-    {
-      "ean": "5035382010441",
-      "nombre": "BRENTUXIMAB 50MG/10ML CAJ C/1 FA(ADCETRIS)",
-      "precio": 75477
-    },
-    {
-      "ean": "7501165011557",
-      "nombre": "BUTILHIOSCINA 20MG/1ML CAJ C/3 FA(BUSCAPINA)",
-      "precio": 343.47
-    },
+    { "ean": "5035382010441", "nombre": "BRENTUXIMAB 50MG/10ML CAJ C/1 FA(ADCETRIS)", "precio": 75477, "precio_bolsillo": 92006.9250, "precio_aseguradora": 105150.7714 },
+    { "ean": "7501165011557", "nombre": "BUTILHIOSCINA 20MG/1ML CAJ C/3 FA(BUSCAPINA)", "precio": 343.47, "precio_bolsillo": 396.9231, "precio_aseguradora": 375.06 },
     {
       "ean": "7501065001337",
       "nombre": "COLECALCIFEROL/VITAMINA D3/CALCIO 600/400MG CAJ C/30(CALTRATE 600 + D)",
@@ -315,21 +247,9 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "COLECALCIFEROL/VITAMINA D3/CALCIO/MINERALES 600/4000MG CAJ C/60(CALTRATE 600 + M)",
       "precio": 366.65
     },
-    {
-      "ean": "7613326005135",
-      "nombre": "CAPECITABINA 500MG CAJ C/120 TAB(XELODA)",
-      "precio": 32649
-    },
-    {
-      "ean": "7506335700798",
-      "nombre": "CAPECITABINA 500MG CAJ C/120 TAB(SKEMCA)",
-      "precio": 10256.923076923076
-    },
-    {
-      "ean": "7501559606420",
-      "nombre": "CAPECITABINA 500MG CAJ C/120 TAB(PLEXODA)",
-      "precio": 4609.2307692307695
-    },
+    { "ean": "7613326005135", "nombre": "CAPECITABINA 500MG CAJ C/120 TAB(XELODA)", "precio": 32649, "precio_bolsillo": 42163.75, "precio_aseguradora": 48187.1429 },
+    { "ean": "7506335700798", "nombre": "CAPECITABINA 500MG CAJ C/120 TAB(SKEMCA)", "precio": 10256.923076923076, "precio_bolsillo": 8741.2615, "precio_aseguradora": 14999 },
+    { "ean": "7501559606420", "nombre": "CAPECITABINA 500MG CAJ C/120 TAB(PLEXODA)", "precio": 4609.2307692307695, "precio_bolsillo": 4461.5385, "precio_aseguradora": 15437 },
     {
       "ean": "7501101640049",
       "nombre": "CAPTOPRIL 25MG CAJ C/30 TAB(CAPTRAL)",
@@ -350,16 +270,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DARATUMUMAB 400MG/20ML CAJ C/1 FA(DARZALEX)",
       "precio": 44789
     },
-    {
-      "ean": "7506335700392",
-      "nombre": "CARBOPLATINO 150MG/15ML CAJ C/1 FA(NUVAPLAST 150)",
-      "precio": 522.86
-    },
-    {
-      "ean": "7506335700408",
-      "nombre": "CARBOPLATINO 450MG/45ML CAJ C/1 FA(NUVAPLAST 450)",
-      "precio": 1568.5714285714287
-    },
+    { "ean": "7506335700392", "nombre": "CARBOPLATINO 150MG/15ML CAJ C/1 FA(NUVAPLAST 150)", "precio": 522.86, "precio_bolsillo": 607.6923, "precio_aseguradora": 700 },
+    { "ean": "7506335700408", "nombre": "CARBOPLATINO 450MG/45ML CAJ C/1 FA(NUVAPLAST 450)", "precio": 1568.5714285714287, "precio_bolsillo": 1160, "precio_aseguradora": 2000 },
     {
       "ean": "8901038410620",
       "nombre": "CARBOPLATINO 150MG/15ML CAJ C/1 FA(KEMOCARB)",
@@ -370,21 +282,13 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CABOZANTINIB 40MG CAJ C/30 TAB(APTIMETYX)",
       "precio": 154735.5
     },
-    {
-      "ean": "8715131009601",
-      "nombre": "CARFILZOMIB 60MG/30ML CAJ C/1 FA(KYPROLIS)",
-      "precio": 25909.4
-    },
+    { "ean": "8715131009601", "nombre": "CARFILZOMIB 60MG/30ML CAJ C/1 FA(KYPROLIS)", "precio": 25909.4, "precio_bolsillo": 31881.25, "precio_aseguradora": 36435.7143 },
     {
       "ean": "7501088508288",
       "nombre": "CETIRIZINA 10MG CAJ C/10 TAB(VIRLIX)",
       "precio": 460.49
     },
-    {
-      "ean": "7501298217567",
-      "nombre": "CETUXIMAB 100MG/20ML CAJ C/1 FA(ERBITUX)",
-      "precio": 10465.26
-    },
+    { "ean": "7501298217567", "nombre": "CETUXIMAB 100MG/20ML CAJ C/1 FA(ERBITUX)", "precio": 10465.26, "precio_bolsillo": 12475, "precio_aseguradora": 14257.1429 },
     {
       "ean": "7501314701827",
       "nombre": "CIPROFLOXACINO 500MG CAJ C/12 TAB(CIPROFLOX)",
@@ -415,16 +319,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CIPROFLOXACINO 1G CAJ C/7 TAB(CIPROFLOX)",
       "precio": 970
     },
-    {
-      "ean": "7506335700217",
-      "nombre": "CISPLATINO 10MG/10ML CAJ C/1 FA(ACCOCIT)",
-      "precio": 199
-    },
-    {
-      "ean": "7506335700224",
-      "nombre": "CISPLATINO 50MG/50ML CAJ C/1 FA(ACCOCIT)",
-      "precio": 611.5384615384615
-    },
+    { "ean": "7506335700217", "nombre": "CISPLATINO 10MG/10ML CAJ C/1 FA(ACCOCIT)", "precio": 199, "precio_bolsillo": 243.75, "precio_aseguradora": 278.5714 },
+    { "ean": "7506335700224", "nombre": "CISPLATINO 50MG/50ML CAJ C/1 FA(ACCOCIT)", "precio": 611.5384615384615, "precio_bolsillo": 380, "precio_aseguradora": 500 },
     {
       "ean": "7503006916083",
       "nombre": "CITALOPRAM 20MG CAJ C/28 TAB(CITOX)",
@@ -460,11 +356,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CLORAMBUCILO 2MG CAJ C/25 TAB(LEUKERAN)",
       "precio": 1769.95
     },
-    {
-      "ean": "7506429600317",
-      "nombre": "EPIRUBICINA 10MG/5ML CAJ C/1 FA(PAPLUF)",
-      "precio": 0
-    },
+    { "ean": "7506429600317", "nombre": "EPIRUBICINA 10MG/5ML CAJ C/1 FA(PAPLUF)", "precio": 0, "precio_bolsillo": 935.6044, "precio_aseguradora": 608.1429 },
     {
       "ean": "7502216807037",
       "nombre": "GEMCITABINA 1G/25ML CAJ C/1 FA(ULDEUS)",
@@ -475,21 +367,9 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "GEMCITABINA 1G/25ML CAJ C/1 FA(IBOLYA)",
       "precio": 1300
     },
-    {
-      "ean": "7502216930414",
-      "nombre": "CLOROPIRAMINA 25MG CAJ C/20 TAB(AVAPENA)",
-      "precio": 353.3
-    },
-    {
-      "ean": "7502216930599",
-      "nombre": "CLOROPIRAMINA 20MG/2ML CAJ C/5 AMP(AVAPENA)",
-      "precio": 270.74
-    },
-    {
-      "ean": "7501082243383",
-      "nombre": "RAMUCIRUMAB 100MG/10ML CAJ C/1 FA(CYRAMZA)",
-      "precio": 19179
-    },
+    { "ean": "7502216930414", "nombre": "CLOROPIRAMINA 25MG CAJ C/20 TAB(AVAPENA)", "precio": 353.3, "precio_bolsillo": 375.9692, "precio_aseguradora": 388.63 },
+    { "ean": "7502216930599", "nombre": "CLOROPIRAMINA 20MG/2ML CAJ C/5 AMP(AVAPENA)", "precio": 270.74, "precio_bolsillo": 291.5692, "precio_aseguradora": 481.24 },
+    { "ean": "7501082243383", "nombre": "RAMUCIRUMAB 100MG/10ML CAJ C/1 FA(CYRAMZA)", "precio": 19179, "precio_bolsillo": 18557.2125, "precio_aseguradora": 21208.2429 },
     {
       "ean": "6332312820",
       "nombre": "DACARBAZINA 200MG/10ML CAJ C/1 FA(DACARBAZINE)",
@@ -510,36 +390,12 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DAPAGLIFLOZINA 10MG CAJ C/28 TAB(FORXIGA)",
       "precio": 2254.92
     },
-    {
-      "ean": "8715131005542",
-      "nombre": "DARBEPOETINA ALFA 30MCG/0.3ML CAJ C/4 FA(ARANESP)",
-      "precio": 4660.57
-    },
-    {
-      "ean": "8715131005559",
-      "nombre": "DARBEPOETINA ALFA 40MCG/0.4ML CAJ C/4 FA(ARANESP)",
-      "precio": 6213.76
-    },
-    {
-      "ean": "8715131005566",
-      "nombre": "DARBEPOETINA ALFA 60MCG/0.3ML CAJ C/4 FA(ARANESP)",
-      "precio": 9320.64
-    },
-    {
-      "ean": "8715131005580",
-      "nombre": "DARBEPOETINA ALFA 300MCG/0.6ML CAJ C/1 FA(ARANESP)",
-      "precio": 11257.65
-    },
-    {
-      "ean": "8715131005597",
-      "nombre": "DARBEPOETINA ALFA 500MCG/1ML CAJ C/1 FA(ARANESP)",
-      "precio": 19700.88
-    },
-    {
-      "ean": "8715131007874",
-      "nombre": "DARBEPOETINA ALFA 80MCG/0.4ML CAJ C/1 FA(ARANESP)",
-      "precio": 3106.88
-    },
+    { "ean": "8715131005542", "nombre": "DARBEPOETINA ALFA 30MCG/0.3ML CAJ C/4 FA(ARANESP)", "precio": 4660.57, "precio_bolsillo": 5574.0500, "precio_aseguradora": 6370.3429 },
+    { "ean": "8715131005559", "nombre": "DARBEPOETINA ALFA 40MCG/0.4ML CAJ C/4 FA(ARANESP)", "precio": 6213.76, "precio_bolsillo": 7221.5625, "precio_aseguradora": 8253.2143 },
+    { "ean": "8715131005566", "nombre": "DARBEPOETINA ALFA 60MCG/0.3ML CAJ C/4 FA(ARANESP)", "precio": 9320.64, "precio_bolsillo": 11147.4875, "precio_aseguradora": 12739.9857 },
+    { "ean": "8715131005580", "nombre": "DARBEPOETINA ALFA 300MCG/0.6ML CAJ C/1 FA(ARANESP)", "precio": 11257.65, "precio_bolsillo": 13852.5, "precio_aseguradora": 15831.4286 },
+    { "ean": "8715131005597", "nombre": "DARBEPOETINA ALFA 500MCG/1ML CAJ C/1 FA(ARANESP)", "precio": 19700.88, "precio_bolsillo": 22919.8375, "precio_aseguradora": 26194.1 },
+    { "ean": "8715131007874", "nombre": "DARBEPOETINA ALFA 80MCG/0.4ML CAJ C/1 FA(ARANESP)", "precio": 3106.88, "precio_bolsillo": 3614.5125, "precio_aseguradora": 4130.8714 },
     {
       "ean": "7501233210011",
       "nombre": "DASATINIB 70MG CAJ C/60 TAB(SPRYCEL)",
@@ -550,11 +406,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DAUNORUBICINA 20MG/4ML CAJ C/1 FA(ZULEB)",
       "precio": 1000
     },
-    {
-      "ean": "7501125163463",
-      "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(DECOREX)",
-      "precio": 43
-    },
+    { "ean": "7501125163463", "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(DECOREX)", "precio": 43, "precio_bolsillo": 65.9077, "precio_aseguradora": 78.91 },
     {
       "ean": "7640180266358",
       "nombre": "DEGARELIX 80MG/4.2ML CAJ C/1 FA(FIRMAGON)",
@@ -565,16 +417,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DEGARELIX 120MG/3ML CAJ C/ FA(FIRMAGON)",
       "precio": 11323
     },
-    {
-      "ean": "8715131006303",
-      "nombre": "DENOSUMAB 60MG/1ML CAJ C/1 FA(PROLIA)",
-      "precio": 10552.4
-    },
-    {
-      "ean": "8715131006976",
-      "nombre": "DENOSUMAB 120MG/1.7ML CAJ C/1 FA(XGEVA)",
-      "precio": 10831.43
-    },
+    { "ean": "8715131006303", "nombre": "DENOSUMAB 60MG/1ML CAJ C/1 FA(PROLIA)", "precio": 10552.4, "precio_bolsillo": 12620.6750, "precio_aseguradora": 14423.6286 },
+    { "ean": "8715131006976", "nombre": "DENOSUMAB 120MG/1.7ML CAJ C/1 FA(XGEVA)", "precio": 10831.43, "precio_bolsillo": 13291.9, "precio_aseguradora": 15190.7429 },
     {
       "ean": "7501108767923",
       "nombre": "DESVENLAFAXINA 100MG CAJ C/28 TAB(PRISTIQ)",
@@ -585,91 +429,23 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DESVENLAFAXINA 50MG CAJ C/28 TAB(PRISTIQ)",
       "precio": 2412.5
     },
-    {
-      "ean": "7501088505003",
-      "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(ALIN)",
-      "precio": 103.07692307692308
-    },
-    {
-      "ean": "7501088505157",
-      "nombre": "DEXAMETASONA 4MG/1ML CAJ C/1 FA(ALIN DEPOT)",
-      "precio": 265.63
-    },
-    {
-      "ean": "7501088505607",
-      "nombre": "DEXAMETASONA 0.5MG CAJ C/30 TAB(ALIN)",
-      "precio": 123.07692307692307
-    },
-    {
-      "ean": "7501088505706",
-      "nombre": "DEXAMETASONA 0.75MG CAJ C/30 TAB(ALIN)",
-      "precio": 135.3846153846154
-    },
-    {
-      "ean": "7501125177569",
-      "nombre": "DEXAMETASONA 4MG CAJ C/10 TAB(DECOREX)",
-      "precio": 132.17
-    },
-    {
-      "ean": "7501125177576",
-      "nombre": "DEXAMETASONA 6MG CAJ C/10 TAB(DEXAMETASONA)",
-      "precio": 170.94
-    },
-    {
-      "ean": "7501125177576",
-      "nombre": "DEXAMETASONA 6MG CAJ C/10 TAB(DECOREX)",
-      "precio": 170.94
-    },
-    {
-      "ean": "7501349027329",
-      "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(DEXAMETASONA)",
-      "precio": 20
-    },
-    {
-      "ean": "7501092722106",
-      "nombre": "DEXLANSOPRAZOL 60MG CAJ C/7 CAP(DEXIVANT)",
-      "precio": 827.6923076923076
-    },
-    {
-      "ean": "7501092722113",
-      "nombre": "DEXLANSOPRAZOL 60MG CAJ C/14 TAB(DEXIVANT)",
-      "precio": 1330.7692307692307
-    },
-    {
-      "ean": "7501092722120",
-      "nombre": "DEXLANSOPRAZOL 30MG CAJ C/14 CAP(DEXIVANT)",
-      "precio": 864.6153846153846
-    },
-    {
-      "ean": "7501871730414",
-      "nombre": "DEXROZANO 500MG/25ML CAJ C/1 FA(CARDIOXANE)",
-      "precio": 8140.06
-    },
-    {
-      "ean": "7501125170867",
-      "nombre": "DIAZEPAM 10MG/2ML CAJ C/6 FA(RELAZEPAM)",
-      "precio": 0
-    },
-    {
-      "ean": "7502253073211",
-      "nombre": "DIFENHIDRAMINA 50MG CAJ C/8 TAB(NYTOL)",
-      "precio": 255.03
-    },
-    {
-      "ean": "7702134108104",
-      "nombre": "DIFENHIDRAMINA 250MG/100ML CAJ C/1 FRA(BENADRYL)",
-      "precio": 201.3076923076923
-    },
-    {
-      "ean": "7501007531601",
-      "nombre": "DIFENHIDRAMINA 25MG CAJ C/24 TAB(BENADRYL)",
-      "precio": 218.36923076923077
-    },
-    {
-      "ean": "7501070635718",
-      "nombre": "DIFENIDOL 40MG/2ML CAJ C/2(VONTROL)",
-      "precio": 253.84615384615384
-    },
+    { "ean": "7501088505003", "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(ALIN)", "precio": 103.07692307692308, "precio_bolsillo": 99.6, "precio_aseguradora": 110.32 },
+    { "ean": "7501088505157", "nombre": "DEXAMETASONA 4MG/1ML CAJ C/1 FA(ALIN DEPOT)", "precio": 265.63, "precio_bolsillo": 281.5692, "precio_aseguradora": 317.82 },
+    { "ean": "7501088505607", "nombre": "DEXAMETASONA 0.5MG CAJ C/30 TAB(ALIN)", "precio": 123.07692307692307, "precio_bolsillo": 117.0923, "precio_aseguradora": 127.5 },
+    { "ean": "7501088505706", "nombre": "DEXAMETASONA 0.75MG CAJ C/30 TAB(ALIN)", "precio": 135.3846153846154, "precio_bolsillo": 131.8154, "precio_aseguradora": 144.37 },
+    { "ean": "7501125177569", "nombre": "DEXAMETASONA 4MG CAJ C/10 TAB(DECOREX)", "precio": 132.17, "precio_bolsillo": 131.8923, "precio_aseguradora": 138.51 },
+    { "ean": "7501125177576", "nombre": "DEXAMETASONA 6MG CAJ C/10 TAB(DEXAMETASONA)", "precio": 170.94, "precio_bolsillo": 189.1385, "precio_aseguradora": 198.85 },
+    { "ean": "7501125177576", "nombre": "DEXAMETASONA 6MG CAJ C/10 TAB(DECOREX)", "precio": 170.94, "precio_bolsillo": 189.1385, "precio_aseguradora": 198.85 },
+    { "ean": "7501349027329", "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(DEXAMETASONA)", "precio": 20, "precio_bolsillo": 13.0308, "precio_aseguradora": 49 },
+    { "ean": "7501092722106", "nombre": "DEXLANSOPRAZOL 60MG CAJ C/7 CAP(DEXIVANT)", "precio": 827.6923076923076, "precio_bolsillo": 746.1538, "precio_aseguradora": 873.18 },
+    { "ean": "7501092722113", "nombre": "DEXLANSOPRAZOL 60MG CAJ C/14 TAB(DEXIVANT)", "precio": 1330.7692307692307, "precio_bolsillo": 1200, "precio_aseguradora": 1401.62 },
+    { "ean": "7501092722120", "nombre": "DEXLANSOPRAZOL 30MG CAJ C/14 CAP(DEXIVANT)", "precio": 864.6153846153846, "precio_bolsillo": 761.5385, "precio_aseguradora": 891.32 },
+    { "ean": "7501871730414", "nombre": "DEXROZANO 500MG/25ML CAJ C/1 FA(CARDIOXANE)", "precio": 8140.06, "precio_bolsillo": 9058.75, "precio_aseguradora": 10352.8571 },
+    { "ean": "7501125170867", "nombre": "DIAZEPAM 10MG/2ML CAJ C/6 FA(RELAZEPAM)", "precio": 0, "precio_bolsillo": 152.3077, "precio_aseguradora": 142.89 },
+    { "ean": "7502253073211", "nombre": "DIFENHIDRAMINA 50MG CAJ C/8 TAB(NYTOL)", "precio": 255.03, "precio_bolsillo": 278.4923, "precio_aseguradora": 317.14 },
+    { "ean": "7702134108104", "nombre": "DIFENHIDRAMINA 250MG/100ML CAJ C/1 FRA(BENADRYL)", "precio": 201.3076923076923, "precio_bolsillo": 229.4308, "precio_aseguradora": 230.72 },
+    { "ean": "7501007531601", "nombre": "DIFENHIDRAMINA 25MG CAJ C/24 TAB(BENADRYL)", "precio": 218.36923076923077, "precio_bolsillo": 248.8615, "precio_aseguradora": 250.26 },
+    { "ean": "7501070635718", "nombre": "DIFENIDOL 40MG/2ML CAJ C/2(VONTROL)", "precio": 253.84615384615384, "precio_bolsillo": 252.4308, "precio_aseguradora": 278 },
     {
       "ean": "7501125169601",
       "nombre": "DIGOXINA 0.5MG/2ML CAJ C/6 FA(DIGOXINA)",
@@ -695,91 +471,35 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DOBUTAMINA 250MG/20ML CAJ C/1 FA(CORBUSIN)",
       "precio": 301
     },
-    {
-      "ean": "7501165009967",
-      "nombre": "DOCETAXEL 20MG/4ML CAJ C/1 AMP(TAXOTERE)",
-      "precio": 13494.461538461537
-    },
-    {
-      "ean": "7501165009974",
-      "nombre": "DOCETAXEL 80MG/1ML CAJ C/1 FA(TAXOTERE)",
-      "precio": 31689.63
-    },
-    {
-      "ean": "7502223556317",
-      "nombre": "DOCETAXEL 20MG/1ML CAJ C/1 FA(DATILEV)",
-      "precio": 5664.615384615385
-    },
-    {
-      "ean": "7502223556324",
-      "nombre": "DOCETAXEL 80MG/4ML CAJ C/1 FA(DATILEV)",
-      "precio": 21744.615384615383
-    },
+    { "ean": "7501165009967", "nombre": "DOCETAXEL 20MG/4ML CAJ C/1 AMP(TAXOTERE)", "precio": 13494.461538461537, "precio_bolsillo": 10801.7875, "precio_aseguradora": 12344.9000 },
+    { "ean": "7501165009974", "nombre": "DOCETAXEL 80MG/1ML CAJ C/1 FA(TAXOTERE)", "precio": 31689.63, "precio_bolsillo": 38505.8375, "precio_aseguradora": 44006.6714 },
+    { "ean": "7502223556317", "nombre": "DOCETAXEL 20MG/1ML CAJ C/1 FA(DATILEV)", "precio": 5664.615384615385, "precio_bolsillo": 2029.2308, "precio_aseguradora": 5775 },
+    { "ean": "7502223556324", "nombre": "DOCETAXEL 80MG/4ML CAJ C/1 FA(DATILEV)", "precio": 21744.615384615383, "precio_bolsillo": 5066.1538, "precio_aseguradora": 19950 },
     {
       "ean": "7502254000353",
       "nombre": "DOCETAXEL 20MG/1ML CAJ C/1 FA(TAXANIT)",
       "precio": 0
     },
-    {
-      "ean": "7506335700071",
-      "nombre": "DOCETAXEL 80MG/2ML CAJ C/1 FA(TAXANIT)",
-      "precio": 9230.76923076923
-    },
-    {
-      "ean": "7506429600065",
-      "nombre": "DOCETAXEL 20MG/1.5ML CAJ C/1 FA(MIOCERKEL)",
-      "precio": 1150
-    },
-    {
-      "ean": "7506429600072",
-      "nombre": "DOCETAXEL 80MG/6ML CAJ C/1 FA(MIOCERKEL)",
-      "precio": 6769.230769230769
-    },
-    {
-      "ean": "7501109901081",
-      "nombre": "DOMPERIDONA 10MG CAJ C/30 TAB(MOTILIUM)",
-      "precio": 884.6153846153846
-    },
+    { "ean": "7506335700071", "nombre": "DOCETAXEL 80MG/2ML CAJ C/1 FA(TAXANIT)", "precio": 9230.76923076923, "precio_bolsillo": 7552.3077, "precio_aseguradora": 7800 },
+    { "ean": "7506429600065", "nombre": "DOCETAXEL 20MG/1.5ML CAJ C/1 FA(MIOCERKEL)", "precio": 1150, "precio_bolsillo": 760, "precio_aseguradora": 4951.58 },
+    { "ean": "7506429600072", "nombre": "DOCETAXEL 80MG/6ML CAJ C/1 FA(MIOCERKEL)", "precio": 6769.230769230769, "precio_bolsillo": 1646.1538, "precio_aseguradora": 16800 },
+    { "ean": "7501109901081", "nombre": "DOMPERIDONA 10MG CAJ C/30 TAB(MOTILIUM)", "precio": 884.6153846153846, "precio_bolsillo": 936.9231, "precio_aseguradora": 880.6 },
     {
       "ean": "7501125115561",
       "nombre": "DOPAMINA 200MG/5ML CAJ C/5 FA(INOTROPISA)",
       "precio": 0
     },
-    {
-      "ean": "7501287612809",
-      "nombre": "DOXORUBICINA 10MG/5ML CAJ C/ 1 FA(ADRIBLASTINA RD)",
-      "precio": 0
-    },
-    {
-      "ean": "7501287612854",
-      "nombre": "DOXORUBICINA 50MG/25ML CAJ C/1 FA(ADRIBLASTINA RD)",
-      "precio": 0
-    },
-    {
-      "ean": "7502251890148",
-      "nombre": "DOXORUBICINA 10MG/5ML CAJ C/1 FA(ZUCLODOX)",
-      "precio": 1224.6153846153845
-    },
-    {
-      "ean": "7502251890155",
-      "nombre": "DOXORUBICINA 50MG/25ML CAJ C/1 FA(ZUCLODOX)",
-      "precio": 1633.8461538461538
-    },
-    {
-      "ean": "7501871711208",
-      "nombre": "DOXORUBICINA PEGILADA 20MG/10ML CAJ C/1 FA(DOXOPEG)",
-      "precio": 23161.53846153846
-    },
+    { "ean": "7501287612809", "nombre": "DOXORUBICINA 10MG/5ML CAJ C/ 1 FA(ADRIBLASTINA RD)", "precio": 0, "precio_bolsillo": 361.0223, "precio_aseguradora": 336.48 },
+    { "ean": "7501287612854", "nombre": "DOXORUBICINA 50MG/25ML CAJ C/1 FA(ADRIBLASTINA RD)", "precio": 0, "precio_bolsillo": 1472.9238, "precio_aseguradora": 1372.86 },
+    { "ean": "7502251890148", "nombre": "DOXORUBICINA 10MG/5ML CAJ C/1 FA(ZUCLODOX)", "precio": 1224.6153846153845, "precio_bolsillo": 4321.5385, "precio_aseguradora": 9500 },
+    { "ean": "7502251890155", "nombre": "DOXORUBICINA 50MG/25ML CAJ C/1 FA(ZUCLODOX)", "precio": 1633.8461538461538, "precio_bolsillo": 1135.3846, "precio_aseguradora": 1800 },
+    { "ean": "7501871711208", "nombre": "DOXORUBICINA PEGILADA 20MG/10ML CAJ C/1 FA(DOXOPEG)", "precio": 23161.53846153846, "precio_bolsillo": 18637.5, "precio_aseguradora": 21300 },
     {
       "ean": "7501082243376",
       "nombre": "DULOXETINA 30MG CAJ C/28 TAB(CYMBALTA)",
       "precio": 2859
     },
-    {
-      "ean": "5000456054928",
-      "nombre": "DURVALUMAB 120MG/2.4ML CAJ C/1 FA(IMFINZIO)",
-      "precio": 19093.25
-    },
+    { "ean": "5000456054928", "nombre": "DURVALUMAB 120MG/2.4ML CAJ C/1 FA(IMFINZIO)", "precio": 19093.25, "precio_bolsillo": 22583.75, "precio_aseguradora": 25810 },
     {
       "ean": "5000456054911",
       "nombre": "DURVALUMAB 500MG/10ML CAJ C/1 FA(IMFINZIO)",
@@ -790,11 +510,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ECULIZUMAB 300MG/30ML CAJ C/1 FA(SOLIRIS)",
       "precio": 0
     },
-    {
-      "ean": "7501072350299",
-      "nombre": "ENOXAPARINA 60MG/0.6ML CAJ C/2 JPRE(CLEXANE)",
-      "precio": 3372.3076923076924
-    },
+    { "ean": "7501072350299", "nombre": "ENOXAPARINA 60MG/0.6ML CAJ C/2 JPRE(CLEXANE)", "precio": 3372.3076923076924, "precio_bolsillo": 1176.4769, "precio_aseguradora": 3241.56 },
     {
       "ean": "7500464605924",
       "nombre": "ENZALUTAMIDA 40MG CAJ C/120 TAB(XTANDI)",
@@ -810,11 +526,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "EPIRUBICINA 50MG/25ML CAJ C/1 FA(ZUCLEBIN)",
       "precio": 0
     },
-    {
-      "ean": "7506429600324",
-      "nombre": "EPIRUBICINA 50MG/25ML CAJ C/1 FA(PAPLUF)",
-      "precio": 1558.4615384615383
-    },
+    { "ean": "7506429600324", "nombre": "EPIRUBICINA 50MG/25ML CAJ C/1 FA(PAPLUF)", "precio": 1558.4615384615383, "precio_bolsillo": 1403.0769, "precio_aseguradora": 2791.59 },
     {
       "ean": "7501559606444",
       "nombre": "ERITROPOYETINA THETA 20000UI/1ML CAJ C/1 FA(EPORATIO)",
@@ -875,16 +587,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ESMOLOL 2.5G/10ML CAJ C/2 FA(CREVIMOL)",
       "precio": 0
     },
-    {
-      "ean": "7501098611329",
-      "nombre": "ESOMEPRAZOL 40MG CAJ C/14 TAB(NEXIUM-MUPS)",
-      "precio": 1116.98
-    },
-    {
-      "ean": "5000456013666",
-      "nombre": "ESOMEPRAZOL 40MG/10ML CAJ C/1 FA(NEXIUM IV)",
-      "precio": 496
-    },
+    { "ean": "7501098611329", "nombre": "ESOMEPRAZOL 40MG CAJ C/14 TAB(NEXIUM-MUPS)", "precio": 1116.98, "precio_bolsillo": 1172.8154, "precio_aseguradora": 1388.1 },
+    { "ean": "5000456013666", "nombre": "ESOMEPRAZOL 40MG/10ML CAJ C/1 FA(NEXIUM IV)", "precio": 496, "precio_bolsillo": 458.9, "precio_aseguradora": 524.4571 },
     {
       "ean": "7506335700774",
       "nombre": "ETOPOSIDO 100MG/5ML CAJ C/10 FA(CAVEP)",
@@ -915,36 +619,20 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "EXEMESTANO 25MG CAJ C/30 TAB(NODUTAX)",
       "precio": 3913.1333333333337
     },
-    {
-      "ean": "7501314704620",
-      "nombre": "FAMOTIDINA 20MG CAJ C/20 TAB(DURATER)",
-      "precio": 470
-    },
+    { "ean": "7501314704620", "nombre": "FAMOTIDINA 20MG CAJ C/20 TAB(DURATER)", "precio": 470, "precio_bolsillo": 553.8462, "precio_aseguradora": 520 },
     {
       "ean": "7501125113666",
       "nombre": "FENTANILO 0.5MG/10ML CAJ C/6 FA(FENODID)",
       "precio": 0
     },
-    {
-      "ean": "7501165001725",
-      "nombre": "FEXOFENADINA 180MG CAJ C/10 TAB(ALLEGRA)",
-      "precio": 610.12
-    },
-    {
-      "ean": "7501165001718",
-      "nombre": "FEXOFENADINA 120MG CAJ C/10 TAB(ALLEGRA)",
-      "precio": 509.44
-    },
+    { "ean": "7501165001725", "nombre": "FEXOFENADINA 180MG CAJ C/10 TAB(ALLEGRA)", "precio": 610.12, "precio_bolsillo": 661.0462, "precio_aseguradora": 634.5 },
+    { "ean": "7501165001718", "nombre": "FEXOFENADINA 120MG CAJ C/10 TAB(ALLEGRA)", "precio": 509.44, "precio_bolsillo": 551.9692, "precio_aseguradora": 529.78 },
     {
       "ean": "7501559613718",
       "nombre": "FILGRASTIM 300MCG/1ML CAJ C/1 FA(INMUNEF)",
       "precio": 1351.030769230769
     },
-    {
-      "ean": "7502213145408",
-      "nombre": "FILGRASTIM 300MCG/1ML CAJ C/1 JPRELL(FILATIL)",
-      "precio": 2298.2
-    },
+    { "ean": "7502213145408", "nombre": "FILGRASTIM 300MCG/1ML CAJ C/1 JPRELL(FILATIL)", "precio": 2298.2, "precio_bolsillo": 1289.8615, "precio_aseguradora": 2473 },
     {
       "ean": "7502216933774",
       "nombre": "FILGRASTIM 300MCG/1ML CAJ C/5 FA(ZARZIO)",
@@ -955,46 +643,18 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "FLUDARABINE 50MG/2ML CAJ C/1 FA(FLUDACEL)",
       "precio": 0
     },
-    {
-      "ean": "7502251890636",
-      "nombre": "FLUOROURACILO 250MG/10ML CAJ C/10 FA(FUOAVIL)",
-      "precio": 0
-    },
-    {
-      "ean": "7502241941812",
-      "nombre": "FOSAPREPITANT 150MG/5ML CAJ C/1 FA(EMEND IV)",
-      "precio": 3700
-    },
-    {
-      "ean": "7501098609210",
-      "nombre": "FULVESTRANT 250MG/5ML CAJ C/2 FA(FASLODEX)",
-      "precio": 27272.27
-    },
-    {
-      "ean": "7501165000186",
-      "nombre": "FUROSEMIDA 20MG/2ML CAJ C/5 FA(LASIX)",
-      "precio": 394.03
-    },
-    {
-      "ean": "7501165000193",
-      "nombre": "FUROSEMIDA 40MG CAJ C/24 TAB(LASIX)",
-      "precio": 338.2
-    },
+    { "ean": "7502251890636", "nombre": "FLUOROURACILO 250MG/10ML CAJ C/10 FA(FUOAVIL)", "precio": 0, "precio_bolsillo": 2464.6154, "precio_aseguradora": 2500 },
+    { "ean": "7502241941812", "nombre": "FOSAPREPITANT 150MG/5ML CAJ C/1 FA(EMEND IV)", "precio": 3700, "precio_bolsillo": 3370.8625, "precio_aseguradora": 3852.4143 },
+    { "ean": "7501098609210", "nombre": "FULVESTRANT 250MG/5ML CAJ C/2 FA(FASLODEX)", "precio": 27272.27, "precio_bolsillo": 28646.6875, "precio_aseguradora": 32739.0714 },
+    { "ean": "7501165000186", "nombre": "FUROSEMIDA 20MG/2ML CAJ C/5 FA(LASIX)", "precio": 394.03, "precio_bolsillo": 422.1231, "precio_aseguradora": 597 },
+    { "ean": "7501165000193", "nombre": "FUROSEMIDA 40MG CAJ C/24 TAB(LASIX)", "precio": 338.2, "precio_bolsillo": 350.8, "precio_aseguradora": 427 },
     {
       "ean": "7501298224169",
       "nombre": "GABAPENTINA/TIAMINA/CIANOCOBALAMINA 300/100/0.2MG CAJ C/30 TAB(GAVINDO N)",
       "precio": 1385
     },
-    {
-      "ean": "7501082214031",
-      "nombre": "GEMCITABINA 1G/25ML CAJ C/1 FA(GEMZAR)",
-      "precio": 7498
-    },
-    {
-      "ean": "7501082214048",
-      "nombre": "GEMCITABINA 200MG/5ML CAJ C/1 FA(GEMZAR)",
-      "precio": 1541
-    },
+    { "ean": "7501082214031", "nombre": "GEMCITABINA 1G/25ML CAJ C/1 FA(GEMZAR)", "precio": 7498, "precio_bolsillo": 7298.325, "precio_aseguradora": 8340.9429 },
+    { "ean": "7501082214048", "nombre": "GEMCITABINA 200MG/5ML CAJ C/1 FA(GEMZAR)", "precio": 1541, "precio_bolsillo": 1501.25, "precio_aseguradora": 1715.7143 },
     {
       "ean": "7506335701429",
       "nombre": "GEMCITABINA 1G/25ML CAJ C/1(ACCOGEM)",
@@ -1015,16 +675,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "GLUCONATO DE CALCIO 1G/10ML CAJ C/1 FA(SOLUCION GC)",
       "precio": 0
     },
-    {
-      "ean": "7501324402950",
-      "nombre": "GOSERELINA 10.8MG/1IMPLANTE CAJ C/1(ZOLADEX)",
-      "precio": 18334.85
-    },
-    {
-      "ean": "7501324402998",
-      "nombre": "GOSERELINA 3.6MG/1IMPLANTE CAJ C/1 JER(ZOLADEX)",
-      "precio": 6388.41
-    },
+    { "ean": "7501324402950", "nombre": "GOSERELINA 10.8MG/1IMPLANTE CAJ C/1(ZOLADEX)", "precio": 18334.85, "precio_bolsillo": 20122.5375, "precio_aseguradora": 22997.1857 },
+    { "ean": "7501324402998", "nombre": "GOSERELINA 3.6MG/1IMPLANTE CAJ C/1 JER(ZOLADEX)", "precio": 6388.41, "precio_bolsillo": 7013.7, "precio_aseguradora": 8015.6571 },
     {
       "ean": "75010527106790",
       "nombre": "GRANISETRON  1MG/3ML(MANOTROX)",
@@ -1145,26 +797,14 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "INSULINA DEGLUDEC  100UI/3ML CAJ C/5(TRESIBA)",
       "precio": 5504.615384615385
     },
-    {
-      "ean": "3000032327349",
-      "nombre": "IPILIMUMAB 50MG/10ML(YERVOY)",
-      "precio": 77990
-    },
-    {
-      "ean": "7501037910063",
-      "nombre": "IPRATROPIO 0.5/2.5MG/2.5ML(COMBIVENT UDVS)",
-      "precio": 825.05
-    },
+    { "ean": "3000032327349", "nombre": "IPILIMUMAB 50MG/10ML(YERVOY)", "precio": 77990, "precio_bolsillo": 87188.075, "precio_aseguradora": 99643.5143 },
+    { "ean": "7501037910063", "nombre": "IPRATROPIO 0.5/2.5MG/2.5ML(COMBIVENT UDVS)", "precio": 825.05, "precio_bolsillo": 961.0000, "precio_aseguradora": 940.87 },
     {
       "ean": "8901038410583",
       "nombre": "IRINOTECAN 100MG/5ML(DARITEX)",
       "precio": 0
     },
-    {
-      "ean": "7506335701436",
-      "nombre": "IRINOTECAN 100MG/5ML(IRAPLAX)",
-      "precio": 2675
-    },
+    { "ean": "7506335701436", "nombre": "IRINOTECAN 100MG/5ML(IRAPLAX)", "precio": 2675, "precio_bolsillo": 2622.3846, "precio_aseguradora": 10000 },
     {
       "ean": "7506429600652",
       "nombre": "IRINOTECAN 100MG/5ML CAJ C/1 FA(FERADECH)",
@@ -1175,11 +815,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ITOPRIDA 50MG 50MG CAJ C/30 TAB(DAGLA)",
       "precio": 732.3076923076923
     },
-    {
-      "ean": "7501299302286",
-      "nombre": "KETOROLACO 30MG/1ML CAJ C/3 FA(SUPRADOL)",
-      "precio": 254.03076923076924
-    },
+    { "ean": "7501299302286", "nombre": "KETOROLACO 30MG/1ML CAJ C/3 FA(SUPRADOL)", "precio": 254.03076923076924, "precio_bolsillo": 93.7846, "precio_aseguradora": 260 },
     {
       "ean": "7501299306130",
       "nombre": "KETOROLACO 30MG CAJ C/4 TAB(SUPRADOL SUBLINGUAL)",
@@ -1190,21 +826,9 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "KETOROLACO 10MG CAJ C/10 TAB(SUPRADOL)",
       "precio": 158
     },
-    {
-      "ean": "7501300407030",
-      "nombre": "KETOROLACO 30MG/2ML(DOLAC)",
-      "precio": 147.69
-    },
-    {
-      "ean": "7501300407023",
-      "nombre": "KETOROLACO 30MG CAJ C/4 TAB(DOLAC)",
-      "precio": 196.9230769230769
-    },
-    {
-      "ean": "7501299302354",
-      "nombre": "KETOROLACO 60MG/2ML(SUPRADOL)",
-      "precio": 357.3076923076923
-    },
+    { "ean": "7501300407030", "nombre": "KETOROLACO 30MG/2ML(DOLAC)", "precio": 147.69, "precio_bolsillo": 147.6923, "precio_aseguradora": 470 },
+    { "ean": "7501300407023", "nombre": "KETOROLACO 30MG CAJ C/4 TAB(DOLAC)", "precio": 196.9230769230769, "precio_bolsillo": 116.5077, "precio_aseguradora": 211 },
+    { "ean": "7501299302354", "nombre": "KETOROLACO 60MG/2ML(SUPRADOL)", "precio": 357.3076923076923, "precio_bolsillo": 245.0154, "precio_aseguradora": 389 },
     {
       "ean": "7501314704958",
       "nombre": "LACTULOSA 83.3G/125ML(LACTULAX)",
@@ -1295,21 +919,13 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "LIDOCAINA/EPINEFRINA 2/0.05MG/50ML(PISACAINA CON LIDOCAINA 2%)",
       "precio": 107.6
     },
-    {
-      "ean": "7502253073617",
-      "nombre": "LIDOCAINA/PRILOCAINA 1G CAJ C/2 PAR(EMLA)",
-      "precio": 260.28
-    },
+    { "ean": "7502253073617", "nombre": "LIDOCAINA/PRILOCAINA 1G CAJ C/2 PAR(EMLA)", "precio": 260.28, "precio_bolsillo": 284.2308, "precio_aseguradora": 295 },
     {
       "ean": "7502253073624",
       "nombre": "LIDOCAINA/PRILOCAINA 30G CAJ C/1 TUB(EMLA)",
       "precio": 636.18
     },
-    {
-      "ean": "7501559606413",
-      "nombre": "LIPEGFILGRASTIM 6MG/0.6ML(LINKIX)",
-      "precio": 30694
-    },
+    { "ean": "7501559606413", "nombre": "LIPEGFILGRASTIM 6MG/0.6ML(LINKIX)", "precio": 30694, "precio_bolsillo": 28971.25, "precio_aseguradora": 33110 },
     {
       "ean": "7501057002663",
       "nombre": "LOPERAMIDA 2MG CAJ C/8 TAB(LOMOTIL)",
@@ -1320,16 +936,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "LORATADINA 10MG CAJ C/10 TAB(SENSIBIT)",
       "precio": 242.80000000000004
     },
-    {
-      "ean": "7501314703753",
-      "nombre": "LORATADINA 10MG CAJ C/10 TAB(DIMEGAN)",
-      "precio": 380
-    },
-    {
-      "ean": "7501050633659",
-      "nombre": "LORATADINA 10MG CAJ C/10 TAB(CLARITYNE)",
-      "precio": 249.36923076923077
-    },
+    { "ean": "7501314703753", "nombre": "LORATADINA 10MG CAJ C/10 TAB(DIMEGAN)", "precio": 380, "precio_bolsillo": 347.6000, "precio_aseguradora": 397.2571 },
+    { "ean": "7501050633659", "nombre": "LORATADINA 10MG CAJ C/10 TAB(CLARITYNE)", "precio": 249.36923076923077, "precio_bolsillo": 266.9538, "precio_aseguradora": 331.78 },
     {
       "ean": "7501287670991",
       "nombre": "PREGABALINA 50MG CAJ C/28 TAB(LYRICA)",
@@ -1365,31 +973,15 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "MESNA 400MG/4ML CAJ C/5 AMP(NOVACAREL)",
       "precio": 1000
     },
-    {
-      "ean": "5415062378861",
-      "nombre": "METILPREDNISOLONA 40MG/ML CAJ C/1 FA(DEPO MEDROL)",
-      "precio": 292.64
-    },
-    {
-      "ean": "7501124100704",
-      "nombre": "METOCLOPRAMIDA 10MG CAJ C/20 TAB(CARNOTPRIM)",
-      "precio": 415.5
-    },
+    { "ean": "5415062378861", "nombre": "METILPREDNISOLONA 40MG/ML CAJ C/1 FA(DEPO MEDROL)", "precio": 292.64, "precio_bolsillo": 310.1077, "precio_aseguradora": 307.27 },
+    { "ean": "7501124100704", "nombre": "METOCLOPRAMIDA 10MG CAJ C/20 TAB(CARNOTPRIM)", "precio": 415.5, "precio_bolsillo": 430.8500, "precio_aseguradora": 492.4000 },
     {
       "ean": "7501563310269",
       "nombre": "METOCLOPRAMIDA  10MG/2ML(METOCLOPRAMIDA)",
       "precio": 60.58
     },
-    {
-      "ean": "7501124100759",
-      "nombre": "METOCLOPRAMIDA 10MG/2ML CAJ C/6 AMP(CARNOTPRIM)",
-      "precio": 582.25
-    },
-    {
-      "ean": "7501250838427",
-      "nombre": "METOCLOPRAMIDA/ONDASETRON 10MG/4MG CAJ C/10 TAB(CLODASET)",
-      "precio": 981.03
-    },
+    { "ean": "7501124100759", "nombre": "METOCLOPRAMIDA 10MG/2ML CAJ C/6 AMP(CARNOTPRIM)", "precio": 582.25, "precio_bolsillo": 582.6125, "precio_aseguradora": 665.8429 },
+    { "ean": "7501250838427", "nombre": "METOCLOPRAMIDA/ONDASETRON 10MG/4MG CAJ C/10 TAB(CLODASET)", "precio": 981.03, "precio_bolsillo": 833.75, "precio_aseguradora": 952.8571 },
     {
       "ean": "7506335703416",
       "nombre": "METOTREXATO 2.5MG CAJ C/50 TAB(AC VONDA)",
@@ -1480,16 +1072,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "NOREPINEFRINA 4MG/4ML(PRIDAM)",
       "precio": 1491.48
     },
-    {
-      "ean": "7613326005579",
-      "nombre": "OBINUTUZUMAB 1000MG/40ML CAJ C/1 FA(GAZYVA)",
-      "precio": 114357
-    },
-    {
-      "ean": "7613326017749",
-      "nombre": "OCRELIZUMAB 300MG/10ML CAJ C/1 FA(OCREVUS)",
-      "precio": 218505
-    },
+    { "ean": "7613326005579", "nombre": "OBINUTUZUMAB 1000MG/40ML CAJ C/1 FA(GAZYVA)", "precio": 114357, "precio_bolsillo": 137017.975, "precio_aseguradora": 156591.9714 },
+    { "ean": "7613326017749", "nombre": "OCRELIZUMAB 300MG/10ML CAJ C/1 FA(OCREVUS)", "precio": 218505, "precio_bolsillo": 232500, "precio_aseguradora": 265714.2857 },
     {
       "ean": "7502253890184",
       "nombre": "INMUNOGLOBULINA HUMANA 10G/100ML(OCTAGAM)",
@@ -1510,16 +1094,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "OCTREOTIDA 30MG/2.5ML CAJ C/1 FA(SANDOSTATINA LAR)",
       "precio": 45203.09
     },
-    {
-      "ean": "7501082212075",
-      "nombre": "OLANZAPINA  10MG CAJ C/14 TAB(ZYPREXA)",
-      "precio": 2976
-    },
-    {
-      "ean": "7501082212037",
-      "nombre": "OLANZAPINA  5MG CAJ C/14 TAB(ZYPREXA)",
-      "precio": 1738
-    },
+    { "ean": "7501082212075", "nombre": "OLANZAPINA  10MG CAJ C/14 TAB(ZYPREXA)", "precio": 2976, "precio_bolsillo": 3410.5538, "precio_aseguradora": 3214.08 },
+    { "ean": "7501082212037", "nombre": "OLANZAPINA  5MG CAJ C/14 TAB(ZYPREXA)", "precio": 1738, "precio_bolsillo": 1991.6923, "precio_aseguradora": 1877.04 },
     {
       "ean": "7501082242072",
       "nombre": "OLANZAPINA 5MG CAJ C/14 TAB(ZYPREXA ZYDIS)",
@@ -1540,26 +1116,10 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "OMEGA 3 1000MG CAJ C/28 TAB(OMACOR)",
       "precio": 792.3076923076923
     },
-    {
-      "ean": "650240031427",
-      "nombre": "OMEPRAZOL 20MG CAJ C/14 CAP(GENOPRAZOL)",
-      "precio": 85.08
-    },
-    {
-      "ean": "650240036354",
-      "nombre": "OMEPRAZOL 20MG CAJ C/7 CAP(GENOPRAZOL)",
-      "precio": 64.49
-    },
-    {
-      "ean": "7501299306833",
-      "nombre": "OMEPRAZOL 40MG/10ML CAJ C/1 FA(INHIBITRON)",
-      "precio": 338.3384615384615
-    },
-    {
-      "ean": "7501299307175",
-      "nombre": "OMEPRAZOL 40MG CAJ C/7 TAB(INHIBITRON F)",
-      "precio": 453.3285714285714
-    },
+    { "ean": "650240031427", "nombre": "OMEPRAZOL 20MG CAJ C/14 CAP(GENOPRAZOL)", "precio": 85.08, "precio_bolsillo": 74.4375, "precio_aseguradora": 85.0714 },
+    { "ean": "650240036354", "nombre": "OMEPRAZOL 20MG CAJ C/7 CAP(GENOPRAZOL)", "precio": 64.49, "precio_bolsillo": 52.4, "precio_aseguradora": 59.8857 },
+    { "ean": "7501299306833", "nombre": "OMEPRAZOL 40MG/10ML CAJ C/1 FA(INHIBITRON)", "precio": 338.3384615384615, "precio_bolsillo": 212.4769, "precio_aseguradora": 354 },
+    { "ean": "7501299307175", "nombre": "OMEPRAZOL 40MG CAJ C/7 TAB(INHIBITRON F)", "precio": 453.3285714285714, "precio_bolsillo": 488.2000, "precio_aseguradora": 507 },
     {
       "ean": "7501314704828",
       "nombre": "OMEPRAZOL 40MG CAJ C/14 TAB(ULSEN PCS)",
@@ -1585,81 +1145,37 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "OMEPRAZOL 40MG CAJ C/15 TAB(INHIBITRON F)",
       "precio": 637.08
     },
-    {
-      "ean": "7501043165266",
-      "nombre": "ONDANSETRON 8MG/4ML CAJ C/3(ZOFRAN)",
-      "precio": 1684.93
-    },
-    {
-      "ean": "7503000645477",
-      "nombre": "ONDANSETRON 8MG CAJ C/10 TAB(AMAL)",
-      "precio": 1212.3076923076924
-    },
-    {
-      "ean": "7503000645491",
-      "nombre": "ONDANSETRON 8MG/4ML CAJ C/3(AMAL)",
-      "precio": 1086.1538461538462
-    },
-    {
-      "ean": "7502227870716",
-      "nombre": "ONDANSETRON  8MG CAJ C/10 TAB(VYLKOR)",
-      "precio": 115.38461538461539
-    },
+    { "ean": "7501043165266", "nombre": "ONDANSETRON 8MG/4ML CAJ C/3(ZOFRAN)", "precio": 1684.93, "precio_bolsillo": 1537.5, "precio_aseguradora": 1757.1429 },
+    { "ean": "7503000645477", "nombre": "ONDANSETRON 8MG CAJ C/10 TAB(AMAL)", "precio": 1212.3076923076924, "precio_bolsillo": 1112, "precio_aseguradora": 1402 },
+    { "ean": "7503000645491", "nombre": "ONDANSETRON 8MG/4ML CAJ C/3(AMAL)", "precio": 1086.1538461538462, "precio_bolsillo": 1028.8, "precio_aseguradora": 1235 },
+    { "ean": "7502227870716", "nombre": "ONDANSETRON  8MG CAJ C/10 TAB(VYLKOR)", "precio": 115.38461538461539, "precio_bolsillo": 82.5692, "precio_aseguradora": 505.26 },
     {
       "ean": "5000456055116",
       "nombre": "OSIMERTINIB  80MG CAJ C/30 TAB(TAGRISSO)",
       "precio": 210658.67
     },
-    {
-      "ean": "7501165005532",
-      "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(ELOXATIN)",
-      "precio": 13182
-    },
-    {
-      "ean": "7501165005549",
-      "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FRA(ELOXATIN)",
-      "precio": 26124.83
-    },
+    { "ean": "7501165005532", "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(ELOXATIN)", "precio": 13182, "precio_bolsillo": 13684.4, "precio_aseguradora": 15639.3143 },
+    { "ean": "7501165005549", "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FRA(ELOXATIN)", "precio": 26124.83, "precio_bolsillo": 26745.25, "precio_aseguradora": 30566.0000 },
     {
       "ean": "8901038410927",
       "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FA(OXITAN)",
       "precio": 0
     },
-    {
-      "ean": "7506335701498",
-      "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FA(RECOPLAT)",
-      "precio": 2385.71
-    },
-    {
-      "ean": "7506429600348",
-      "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FA(TIBOQUIR)",
-      "precio": 2235.3846153846152
-    },
-    {
-      "ean": "7506335701481",
-      "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(RECOPLAT)",
-      "precio": 1192.86
-    },
+    { "ean": "7506335701498", "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FA(RECOPLAT)", "precio": 2385.71, "precio_bolsillo": 1326.1538, "precio_aseguradora": 2500 },
+    { "ean": "7506429600348", "nombre": "OXALIPLATINO 100MG/20ML CAJ C/1 FA(TIBOQUIR)", "precio": 2235.3846153846152, "precio_bolsillo": 1421.5385, "precio_aseguradora": 15026.83 },
+    { "ean": "7506335701481", "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(RECOPLAT)", "precio": 1192.86, "precio_bolsillo": 993.8462, "precio_aseguradora": 1500 },
     {
       "ean": "8901038410910",
       "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(OXITAN)",
       "precio": 0
     },
-    {
-      "ean": "7506429600331",
-      "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(TIBOQUIR)",
-      "precio": 943.0769230769231
-    },
+    { "ean": "7506429600331", "nombre": "OXALIPLATINO 50MG/10ML CAJ C/1 FA(TIBOQUIR)", "precio": 943.0769230769231, "precio_bolsillo": 887.6923, "precio_aseguradora": 7825.82 },
     {
       "ean": "7501092743064",
       "nombre": "OXIDO FERRICO 100MG/5ML(VENOFERRUM)",
       "precio": 515.74
     },
-    {
-      "ean": "7501052713632",
-      "nombre": "PACLITAXEL 300MG/50ML CAJ C/1 FA(DABUREX)",
-      "precio": 1776.923076923077
-    },
+    { "ean": "7501052713632", "nombre": "PACLITAXEL 300MG/50ML CAJ C/1 FA(DABUREX)", "precio": 1776.923076923077, "precio_bolsillo": 1776.9231, "precio_aseguradora": 3500 },
     {
       "ean": "7501052713908",
       "nombre": "PACLITAXEL 30MG/5ML CAJ C/1 FA(DABUREX)",
@@ -1670,11 +1186,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "PACLITAXEL 30MG/5ML CAJ C/1 FA(SIRAPEH)",
       "precio": 1700
     },
-    {
-      "ean": "7506335701320",
-      "nombre": "PACLITAXEL 30MG/5ML CAJ C/1 FA(ACOEXCEL)",
-      "precio": 307.6923076923077
-    },
+    { "ean": "7506335701320", "nombre": "PACLITAXEL 30MG/5ML CAJ C/1 FA(ACOEXCEL)", "precio": 307.6923076923077, "precio_bolsillo": 249.2308, "precio_aseguradora": 400 },
     {
       "ean": "7506200700175",
       "nombre": "PACLITAXEL 300MG/50ML CAJ C/1 FA(ZETATAXO)",
@@ -1715,66 +1227,22 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "PALBOCICLIB 125MG CAJ C/21 TAB(IBRANCE-21)",
       "precio": 100586.87
     },
-    {
-      "ean": "7501050614863",
-      "nombre": "PALONOSETRON 0.25MG/5ML CAJ C/1 FA(ONICIT)",
-      "precio": 9204.615384615385
-    },
+    { "ean": "7501050614863", "nombre": "PALONOSETRON 0.25MG/5ML CAJ C/1 FA(ONICIT)", "precio": 9204.615384615385, "precio_bolsillo": 6304.6154, "precio_aseguradora": 6397 },
     {
       "ean": "7501050626439",
       "nombre": "PALONOSETRON 0.075MG/1.5ML CAJ C/1 FA(ONICIT)",
       "precio": 1922.38
     },
-    {
-      "ean": "7501701406588",
-      "nombre": "PALONOSETRON/NETUPITANT 0.5/300MG CAJ C/1 CAP(AQYNZIO)",
-      "precio": 4419.96
-    },
-    {
-      "ean": "7506335700101",
-      "nombre": "PALONOSETRON 0.25MG/5ML CAJ C/1 FA(VIQET)",
-      "precio": 1400
-    },
-    {
-      "ean": "8715131005603",
-      "nombre": "PANITUMUMAB 100MG/5ML CAJ C/1 FA(VECTIBIX)",
-      "precio": 17988.31
-    },
-    {
-      "ean": "7501092771975",
-      "nombre": "PANTOPRAZOL 40MG/10ML(PANTOZOL)",
-      "precio": 407.69
-    },
-    {
-      "ean": "7501871721481",
-      "nombre": "PANTOPRAZOL 40MG CAJ C/14 COM(ZOLTUM)",
-      "precio": 821.6
-    },
-    {
-      "ean": "7501299303474",
-      "nombre": "PANTOPRAZOL 40MG CAJ C/14 TAB(PRAZOLAN)",
-      "precio": 807.4615384615385
-    },
-    {
-      "ean": "7501871720675",
-      "nombre": "PARACETAMOL 1G C/20 (TAFIROL)",
-      "precio": 440.56
-    },
-    {
-      "ean": "7501095452116",
-      "nombre": "PARACETAMOL 500MG CAJ C/10 TAB(TEMPRA)",
-      "precio": 74.87692307692308
-    },
-    {
-      "ean": "7501095452147",
-      "nombre": "PARACETAMOL 500MG CAJ C/20 TAB(TEMPRA)",
-      "precio": 124.73
-    },
-    {
-      "ean": "7501100089016",
-      "nombre": "PARACETAMOL 750MG CAJ C/20 TAB(TYLEX)",
-      "precio": 421.9384615384615
-    },
+    { "ean": "7501701406588", "nombre": "PALONOSETRON/NETUPITANT 0.5/300MG CAJ C/1 CAP(AQYNZIO)", "precio": 4419.96, "precio_bolsillo": 4890, "precio_aseguradora": 5588.5714 },
+    { "ean": "7506335700101", "nombre": "PALONOSETRON 0.25MG/5ML CAJ C/1 FA(VIQET)", "precio": 1400, "precio_bolsillo": 1210.2615, "precio_aseguradora": 1800 },
+    { "ean": "8715131005603", "nombre": "PANITUMUMAB 100MG/5ML CAJ C/1 FA(VECTIBIX)", "precio": 17988.31, "precio_bolsillo": 20927.4500, "precio_aseguradora": 23917.0857 },
+    { "ean": "7501092771975", "nombre": "PANTOPRAZOL 40MG/10ML(PANTOZOL)", "precio": 407.69, "precio_bolsillo": 424.6154, "precio_aseguradora": 597.04 },
+    { "ean": "7501871721481", "nombre": "PANTOPRAZOL 40MG CAJ C/14 COM(ZOLTUM)", "precio": 821.6, "precio_bolsillo": 862.6769, "precio_aseguradora": 902.63 },
+    { "ean": "7501299303474", "nombre": "PANTOPRAZOL 40MG CAJ C/14 TAB(PRAZOLAN)", "precio": 807.4615384615385, "precio_bolsillo": 805.9231, "precio_aseguradora": 861 },
+    { "ean": "7501871720675", "nombre": "PARACETAMOL 1G C/20 (TAFIROL)", "precio": 440.56, "precio_bolsillo": 538.3077, "precio_aseguradora": 564.21 },
+    { "ean": "7501095452116", "nombre": "PARACETAMOL 500MG CAJ C/10 TAB(TEMPRA)", "precio": 74.87692307692308, "precio_bolsillo": 85.6154, "precio_aseguradora": 80.07 },
+    { "ean": "7501095452147", "nombre": "PARACETAMOL 500MG CAJ C/20 TAB(TEMPRA)", "precio": 124.73, "precio_bolsillo": 159.1231, "precio_aseguradora": 149.84 },
+    { "ean": "7501100089016", "nombre": "PARACETAMOL 750MG CAJ C/20 TAB(TYLEX)", "precio": 421.9384615384615, "precio_bolsillo": 463.7077, "precio_aseguradora": 466.82 },
     {
       "ean": "7501109911035",
       "nombre": "PARACETAMOL 750MG CAJ C/40 TAB(TYLEX)",
@@ -1795,21 +1263,9 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "PEGFILGRASTIM 6MG/0.6ML CAJ C/1 FA(NEULASTIM)",
       "precio": 34506.94
     },
-    {
-      "ean": "8715131022549",
-      "nombre": "PEGFILGRASTIM 6MG/0.6ML CAJ C/1 FA(NEULASTIM ON BODY)",
-      "precio": 34506.94
-    },
-    {
-      "ean": "7501050632126",
-      "nombre": "PEMBROLIZUMAB 100MG/4ML CAJ C/1 FA(KEYTRUDA)",
-      "precio": 106363.82
-    },
-    {
-      "ean": "7501082212341",
-      "nombre": "PEMETREXED 500MG/20ML CAJ C/1 FA(ALIMTA)",
-      "precio": 29334
-    },
+    { "ean": "8715131022549", "nombre": "PEGFILGRASTIM 6MG/0.6ML CAJ C/1 FA(NEULASTIM ON BODY)", "precio": 34506.94, "precio_bolsillo": 41270.3000, "precio_aseguradora": 47166.0571 },
+    { "ean": "7501050632126", "nombre": "PEMBROLIZUMAB 100MG/4ML CAJ C/1 FA(KEYTRUDA)", "precio": 106363.82, "precio_bolsillo": 115551.2125, "precio_aseguradora": 132058.5286 },
+    { "ean": "7501082212341", "nombre": "PEMETREXED 500MG/20ML CAJ C/1 FA(ALIMTA)", "precio": 29334, "precio_bolsillo": 28265, "precio_aseguradora": 32302.8571 },
     {
       "ean": "7506335700248",
       "nombre": "PEMETREXED 500MG/20ML CAJ C/1 FA(EMPET)",
@@ -1835,11 +1291,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "PEMETREXED 500MG/20ML CAJ C/1 FA(ITARA)",
       "precio": 3086.153846153846
     },
-    {
-      "ean": "7613326005760",
-      "nombre": "PERTUZUMAB 420MG/14ML CAJ C/1 FA(PERJETA)",
-      "precio": 94379
-    },
+    { "ean": "7613326005760", "nombre": "PERTUZUMAB 420MG/14ML CAJ C/1 FA(PERJETA)", "precio": 94379, "precio_bolsillo": 111250, "precio_aseguradora": 127142.8571 },
     {
       "ean": "7501088508929",
       "nombre": "PICOSULFATO DE SODIO 5MG CA C/20 TAB(ANARA)",
@@ -1875,31 +1327,11 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "GLUCONATO DE POTASIO 4.68G CAJ C/10 SOB(CORPOTASIN GK)",
       "precio": 321.38
     },
-    {
-      "ean": "7501299303481",
-      "nombre": "PANTOPRAZOL 40MG/10ML CAJ C/1 FA(PRAZOLAN)",
-      "precio": 332.9384615384615
-    },
-    {
-      "ean": "7501349028500",
-      "nombre": "PREDNISONA 50 MG 20 TAB (AMSA)",
-      "precio": 70
-    },
-    {
-      "ean": "7502209852426",
-      "nombre": "PREDNISONA 20MG CAJ C/30 TAB(METICORTEN)",
-      "precio": 972.3076923076923
-    },
-    {
-      "ean": "7502209852440",
-      "nombre": "PREDNISONA 50MG CAJ C/20 TAB(METICORTEN)",
-      "precio": 2326.153846153846
-    },
-    {
-      "ean": "7502209852457",
-      "nombre": "PREDNISONA 5MG CAJ C/30 TAB(METICORTEN)",
-      "precio": 659.75
-    },
+    { "ean": "7501299303481", "nombre": "PANTOPRAZOL 40MG/10ML CAJ C/1 FA(PRAZOLAN)", "precio": 332.9384615384615, "precio_bolsillo": 213.0769, "precio_aseguradora": 355 },
+    { "ean": "7501349028500", "nombre": "PREDNISONA 50 MG 20 TAB (AMSA)", "precio": 70, "precio_bolsillo": 55.9846, "precio_aseguradora": 163 },
+    { "ean": "7502209852426", "nombre": "PREDNISONA 20MG CAJ C/30 TAB(METICORTEN)", "precio": 972.3076923076923, "precio_bolsillo": 888.7846, "precio_aseguradora": 943.58 },
+    { "ean": "7502209852440", "nombre": "PREDNISONA 50MG CAJ C/20 TAB(METICORTEN)", "precio": 2326.153846153846, "precio_bolsillo": 2112.6769, "precio_aseguradora": 2266.5 },
+    { "ean": "7502209852457", "nombre": "PREDNISONA 5MG CAJ C/30 TAB(METICORTEN)", "precio": 659.75, "precio_bolsillo": 699.9385, "precio_aseguradora": 750.89 },
     {
       "ean": "7501287670311",
       "nombre": "PREGABALINA 75MG CAJ C/28 TAB(LYRICA)",
@@ -1920,21 +1352,13 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "PREGABALINA 2G/100ML CAJ C/1(LYRICA)",
       "precio": 1514.57
     },
-    {
-      "ean": "7501125192104",
-      "nombre": "PROPOFOL 200MG/20ML CAJ C/5 FA(RECOFOL)",
-      "precio": 0
-    },
+    { "ean": "7501125192104", "nombre": "PROPOFOL 200MG/20ML CAJ C/5 FA(RECOFOL)", "precio": 0, "precio_bolsillo": 1239.2308, "precio_aseguradora": 1187.2 },
     {
       "ean": "7503007704597",
       "nombre": "RACECADOTRILO 100MG CAJ C/9 CAP(HIDRASEC)",
       "precio": 410.49
     },
-    {
-      "ean": "7501082243369",
-      "nombre": "RAMUCIRUMAB 500MG/50ML CAJ C/1 FA(CYRAMZA)",
-      "precio": 95892
-    },
+    { "ean": "7501082243369", "nombre": "RAMUCIRUMAB 500MG/50ML CAJ C/1 FA(CYRAMZA)", "precio": 95892, "precio_bolsillo": 97317.5, "precio_aseguradora": 111220 },
     {
       "ean": "7501318608481",
       "nombre": "REGORAFENIB 40MG CAJ C/28 TAB(STIVARGA)",
@@ -1950,26 +1374,10 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ELTROMBOPAG 25MG CAJ C/28 TAB(REVOLADE)",
       "precio": 0
     },
-    {
-      "ean": "7613326005654",
-      "nombre": "RITUXIMAB 100MG/10ML CAJ C/2 FA(MABTHERA)",
-      "precio": 32860
-    },
-    {
-      "ean": "7613326005661",
-      "nombre": "RITUXIMAB 500MG/50ML CAJ C/1(MABTHERA)",
-      "precio": 54209
-    },
-    {
-      "ean": "7501318608788",
-      "nombre": "RIVAROXABAN 20MG CAJ C/28 TAB(XARELTO)",
-      "precio": 3643
-    },
-    {
-      "ean": "8715131005276",
-      "nombre": "ROMIPLOSTIM  250MCG/0.5ML CAJ C/1 FA(NPLATE)",
-      "precio": 17278.02
-    },
+    { "ean": "7613326005654", "nombre": "RITUXIMAB 100MG/10ML CAJ C/2 FA(MABTHERA)", "precio": 32860, "precio_bolsillo": 27700, "precio_aseguradora": 31657.1429 },
+    { "ean": "7613326005661", "nombre": "RITUXIMAB 500MG/50ML CAJ C/1(MABTHERA)", "precio": 54209, "precio_bolsillo": 69207.5, "precio_aseguradora": 79094.2857 },
+    { "ean": "7501318608788", "nombre": "RIVAROXABAN 20MG CAJ C/28 TAB(XARELTO)", "precio": 3643, "precio_bolsillo": 3363.5375, "precio_aseguradora": 3844.0429 },
+    { "ean": "8715131005276", "nombre": "ROMIPLOSTIM  250MCG/0.5ML CAJ C/1 FA(NPLATE)", "precio": 17278.02, "precio_bolsillo": 20101.9125, "precio_aseguradora": 22973.6143 },
     {
       "ean": "7501125122446",
       "nombre": "ROPIVACAINA 7.5MG/1ML CAJ C/4 FA(ROPICONEST)",
@@ -1980,11 +1388,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ROSUVASTATINA 40MG CAJ C/30 TAB(CRESTOR)",
       "precio": 2226.69
     },
-    {
-      "ean": "300090887018",
-      "nombre": "METILPREDNISOLONA 500MG/8ML CAJ C/1 FA(SOLU MEDROL)",
-      "precio": 567.8
-    },
+    { "ean": "300090887018", "nombre": "METILPREDNISOLONA 500MG/8ML CAJ C/1 FA(SOLU MEDROL)", "precio": 567.8, "precio_bolsillo": 624.5846, "precio_aseguradora": 803.91 },
     {
       "ean": "7501318690356",
       "nombre": "SORAFENIB 200MG CAJ C/112 TAB(NEXAVAR)",
@@ -2070,41 +1474,17 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "TOPOTECAN  4MG/4ML CAJ C/1 FA(CAMTOOP)",
       "precio": 10693.846153846154
     },
-    {
-      "ean": "7730979099530",
-      "nombre": "TRABECTEDINA  1MG/4ML CAJ C/1 FA(YONDELIS)",
-      "precio": 62420.77
-    },
-    {
-      "ean": "7501124760076",
-      "nombre": "TRAMADOL 100MG/2ML CAJ C/5 FA(TRADOL)",
-      "precio": 878.55
-    },
-    {
-      "ean": "7502209290341",
-      "nombre": "TRAMADOL 50MG CAJ C/10 TAB(TRADOL)",
-      "precio": 658.78
-    },
+    { "ean": "7730979099530", "nombre": "TRABECTEDINA  1MG/4ML CAJ C/1 FA(YONDELIS)", "precio": 62420.77, "precio_bolsillo": 80750, "precio_aseguradora": 92285.7143 },
+    { "ean": "7501124760076", "nombre": "TRAMADOL 100MG/2ML CAJ C/5 FA(TRADOL)", "precio": 878.55, "precio_bolsillo": 1021.5385, "precio_aseguradora": 1005.15 },
+    { "ean": "7502209290341", "nombre": "TRAMADOL 50MG CAJ C/10 TAB(TRADOL)", "precio": 658.78, "precio_bolsillo": 766.1538, "precio_aseguradora": 753.73 },
     {
       "ean": "7502209290358",
       "nombre": "TRAMADOL 100MG/10ML GOT FRA(TRADOL)",
       "precio": 829.2
     },
-    {
-      "ean": "7613326005586",
-      "nombre": "TRASTUZUMAB 440MG/20ML CAJ C/1 FA(HERCEPTIN)",
-      "precio": 58812
-    },
-    {
-      "ean": "7613326005593",
-      "nombre": "TRASTUZUMAB 600MG/5ML CAJ C/1 FA(HERCEPTIN SC)",
-      "precio": 55716
-    },
-    {
-      "ean": "7501287621559",
-      "nombre": "TRASTUZUMAB 440MG/20ML CAJ C/1 FA(TRAZIMERA)",
-      "precio": 24960
-    },
+    { "ean": "7613326005586", "nombre": "TRASTUZUMAB 440MG/20ML CAJ C/1 FA(HERCEPTIN)", "precio": 58812, "precio_bolsillo": 75085, "precio_aseguradora": 85811.4286 },
+    { "ean": "7613326005593", "nombre": "TRASTUZUMAB 600MG/5ML CAJ C/1 FA(HERCEPTIN SC)", "precio": 55716, "precio_bolsillo": 67934.575, "precio_aseguradora": 77639.5143 },
+    { "ean": "7501287621559", "nombre": "TRASTUZUMAB 440MG/20ML CAJ C/1 FA(TRAZIMERA)", "precio": 24960, "precio_bolsillo": 23721.5385, "precio_aseguradora": 46711.14 },
     {
       "ean": "4260095681324",
       "nombre": "TRETINOINA 10MG CAJ C/100 CAP(VESANOID)",
@@ -2195,21 +1575,13 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "VITAMINAS 5M/5ML(VITAFUSIN)",
       "precio": 258.57
     },
-    {
-      "ean": "7506335701528",
-      "nombre": "DOXORUBICINA 50MG/25ML CAJ C/1 FA(ZODOX)",
-      "precio": 950
-    },
+    { "ean": "7506335701528", "nombre": "DOXORUBICINA 50MG/25ML CAJ C/1 FA(ZODOX)", "precio": 950, "precio_bolsillo": 1261.5385, "precio_aseguradora": 2500 },
     {
       "ean": "7506429600355",
       "nombre": "IFOSFAMIDA 1 G SOL INY CAJA C/1 FA(ALQUIFOS)",
       "precio": 1227.6923076923076
     },
-    {
-      "ean": "7503000645491",
-      "nombre": "ONDANSETRON 2 MG AMP CAJA C/3 (AMAL)",
-      "precio": 1086.1538461538462
-    },
+    { "ean": "7503000645491", "nombre": "ONDANSETRON 2 MG AMP CAJA C/3 (AMAL)", "precio": 1086.1538461538462, "precio_bolsillo": 1028.8, "precio_aseguradora": 1235 },
     {
       "ean": "7501326000215",
       "nombre": "APREPITANT 1 CAP 125MG /  2 CAP 80MG (EMEND)",
@@ -2220,11 +1592,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "PENTALMIDÓN 10G/100ML CAJA C/1(HESTAR)",
       "precio": 0
     },
-    {
-      "ean": "7506335701207",
-      "nombre": "ONDANSETRON 8MG/4ML CAJ C/3(HT BLOC)",
-      "precio": 141.53846153846155
-    },
+    { "ean": "7506335701207", "nombre": "ONDANSETRON 8MG/4ML CAJ C/3(HT BLOC)", "precio": 141.53846153846155, "precio_bolsillo": 101.5385, "precio_aseguradora": 250 },
     {
       "ean": "7501125112881",
       "nombre": "LIDOCAINA 2% 20 MG/ML FA(PISACAINA)",
@@ -2265,16 +1633,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "LIDOCAINA SOL INY 10% CAJ C/1 FRA 115ML(PHARMACAINE)",
       "precio": 200.09
     },
-    {
-      "ean": "7502251891183",
-      "nombre": "PALONOSETRON 0.05MG/ML CAJ C/1 FA DE 5ML(GESENT)",
-      "precio": 1642.857142857143
-    },
-    {
-      "ean": "8715131012748",
-      "nombre": "FILGRASTIM 300 MCG 1 JGP C/0.5 ML(NEUPOGEN)",
-      "precio": 5660.48
-    },
+    { "ean": "7502251891183", "nombre": "PALONOSETRON 0.05MG/ML CAJ C/1 FA DE 5ML(GESENT)", "precio": 1642.857142857143, "precio_bolsillo": 840, "precio_aseguradora": 5500 },
+    { "ean": "8715131012748", "nombre": "FILGRASTIM 300 MCG 1 JGP C/0.5 ML(NEUPOGEN)", "precio": 5660.48, "precio_bolsillo": 6813.75, "precio_aseguradora": 7787.1429 },
     {
       "ean": "7501124818784",
       "nombre": "NILOTINIB 200MG CAJ C/120 CAP (3 CAJ C/40 CAP)(TASIGNA)",
@@ -2295,11 +1655,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "TRIMEBUTINA, SIMETICONA, GALACTOSIDASA 200MG/75MG/45MG CAJ C/24 COM(LIBERTRIM ALFA)",
       "precio": 923.59
     },
-    {
-      "ean": "7501125124549",
-      "nombre": "METOCLOPRAMIDA 10MG/2ML CAJ C/6 AMP DE 2ML(PRAMOTIL)",
-      "precio": 73.13
-    },
+    { "ean": "7501125124549", "nombre": "METOCLOPRAMIDA 10MG/2ML CAJ C/6 AMP DE 2ML(PRAMOTIL)", "precio": 73.13, "precio_bolsillo": 95.625, "precio_aseguradora": 109.2857 },
     {
       "ean": "7501109930555",
       "nombre": "APALUTAMIDA 60MG CAJ C/FRA C/120 TAB(ERLEADA)",
@@ -2320,36 +1676,20 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "KETOPROFENO 100MG CAJ C/3 FA(TRALIKEN IV)",
       "precio": 321.89
     },
-    {
-      "ean": "7501349020009",
-      "nombre": "TRAMADOL SOL INY 100MG/2ML CAJ C/5 AMP(TRAMADOL (AMSA))",
-      "precio": 60
-    },
-    {
-      "ean": "8715131010294",
-      "nombre": "BLINATUMOMAB 35MCG CAJ C/1 FA(BLINCYTO)",
-      "precio": 33602.22
-    },
+    { "ean": "7501349020009", "nombre": "TRAMADOL SOL INY 100MG/2ML CAJ C/5 AMP(TRAMADOL (AMSA))", "precio": 60, "precio_bolsillo": 63.0769, "precio_aseguradora": 158 },
+    { "ean": "8715131010294", "nombre": "BLINATUMOMAB 35MCG CAJ C/1 FA(BLINCYTO)", "precio": 33602.22, "precio_bolsillo": 40752.775, "precio_aseguradora": 46574.6000 },
     {
       "ean": "3582180000300",
       "nombre": "CABOZANTINIB 20MG CAJ C/30 TAB(APTIMETYX)",
       "precio": 154735.5
     },
-    {
-      "ean": "7506335701825",
-      "nombre": "FLUOROURACILO 250MG/5ML CAJ C/10 FA(ACOFLUT)",
-      "precio": 1333.8461538461538
-    },
+    { "ean": "7506335701825", "nombre": "FLUOROURACILO 250MG/5ML CAJ C/10 FA(ACOFLUT)", "precio": 1333.8461538461538, "precio_bolsillo": 1311.1846, "precio_aseguradora": 2000 },
     {
       "ean": "7506429600096",
       "nombre": "VINORELBINA 10MG/1ML CAJ C/1 FA(ANIDORET)",
       "precio": 923.0769230769231
     },
-    {
-      "ean": "8027950210466",
-      "nombre": "APIXABAN 5MG CAJ C/20 TAB(ELICUIS)",
-      "precio": 1108.83
-    },
+    { "ean": "8027950210466", "nombre": "APIXABAN 5MG CAJ C/20 TAB(ELICUIS)", "precio": 1108.83, "precio_bolsillo": 1108.8308, "precio_aseguradora": 1179.33 },
     {
       "ean": "7501559656401",
       "nombre": "CULTIVO BCG 30MG CAJ C/4 AMP(CULTIVO BCG SSI)",
@@ -2375,11 +1715,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DEXRAZOXANO SOL 500MG CAJ C/1 FA(DEXPEXEL)",
       "precio": 5866.153846153846
     },
-    {
-      "ean": "8027950210527",
-      "nombre": "APIXABAN 2.5MG CAJ C/60 TAB(ELICUIS)",
-      "precio": 2865.03
-    },
+    { "ean": "8027950210527", "nombre": "APIXABAN 2.5MG CAJ C/60 TAB(ELICUIS)", "precio": 2865.03, "precio_bolsillo": 2865.0308, "precio_aseguradora": 3047.16 },
     {
       "ean": "7501124819439",
       "nombre": "RIBOCICLIB 200MG CAJ C/63 COM(KISQALI)",
@@ -2390,11 +1726,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "SEROALBUMINA HUMANA 25% CAJ C/1 FRA 50ML(ALBUMINA HUMANA GRIFOLS)",
       "precio": 0
     },
-    {
-      "ean": "7502251891183",
-      "nombre": "PALONOSETRON 0.25MG/ML CAJ C/1 FA DE 5ML(GESENT)",
-      "precio": 1642.857142857143
-    },
+    { "ean": "7502251891183", "nombre": "PALONOSETRON 0.25MG/ML CAJ C/1 FA DE 5ML(GESENT)", "precio": 1642.857142857143, "precio_bolsillo": 840, "precio_aseguradora": 5500 },
     {
       "ean": "372694954014",
       "nombre": "PEGASPARGASA 3750UI/5ML CAJ C/1 FA(ONCASPAR)",
@@ -2420,11 +1752,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "USTEKINUMAB 45MG CAJ C/1 JGP(STELARA)",
       "precio": 96583
     },
-    {
-      "ean": "7502256040067",
-      "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(SINKEL)",
-      "precio": 10.49
-    },
+    { "ean": "7502256040067", "nombre": "DEXAMETASONA 8MG/2ML CAJ C/1 FA(SINKEL)", "precio": 10.49, "precio_bolsillo": 10.4923, "precio_aseguradora": 30 },
     {
       "ean": "7501109930357",
       "nombre": "USTEKINUMAB 130MG/26ML CAJ C/1 FA(STELARA IV)",
@@ -2460,11 +1788,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "HALOPERIDOL 5MG/ML CAJ C/6 AMP(PULSIT)",
       "precio": 0
     },
-    {
-      "ean": "7501318600508",
-      "nombre": "RIVAROXIBAN 10 MG CAJ C/10 COM(XARELTO)",
-      "precio": 1747
-    },
+    { "ean": "7501318600508", "nombre": "RIVAROXIBAN 10 MG CAJ C/10 COM(XARELTO)", "precio": 1747, "precio_bolsillo": 1661.1000, "precio_aseguradora": 1898.4000 },
     {
       "ean": "5000456054911-1",
       "nombre": "DURVALUMAB 500MG/10ML CAJ C/1 FA(IMFINZIO MAZSALUD 50%)",
@@ -2485,11 +1809,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ETOPOSIDO 20ML/5ML AMP C/10 (ETPOKEM)",
       "precio": 2290
     },
-    {
-      "ean": "7501277094141",
-      "nombre": "PANTOZOL 40MG CAJ C/14 TAB(PANTOPRAZOL)",
-      "precio": 97
-    },
+    { "ean": "7501277094141", "nombre": "PANTOZOL 40MG CAJ C/14 TAB(PANTOPRAZOL)", "precio": 97, "precio_bolsillo": 96.9231, "precio_aseguradora": 275.39 },
     {
       "ean": "7501125113666",
       "nombre": "FENTANILO 0.25MG/5ML CAJ C/5 AMP(FENODID)",
@@ -2525,21 +1845,9 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CEFUROXIMA 750 MG CAJ C/1 FA(FUCEROX)",
       "precio": 0
     },
-    {
-      "ean": "7501493980433",
-      "nombre": "OMEPRAZOL 40MG/10ML CAJ C/1 FA(PREZOLAX)",
-      "precio": 101.38
-    },
-    {
-      "ean": "7501314704644",
-      "nombre": "FAMOTIDINA 40MG CAJ C/10 COM(DURATER)",
-      "precio": 490
-    },
-    {
-      "ean": "7501125177774",
-      "nombre": "OMEPRAZOL 40MG/10ML CAJ C/1 FA(PENTREN)",
-      "precio": 293.53
-    },
+    { "ean": "7501493980433", "nombre": "OMEPRAZOL 40MG/10ML CAJ C/1 FA(PREZOLAX)", "precio": 101.38, "precio_bolsillo": 75.2308, "precio_aseguradora": 381.43 },
+    { "ean": "7501314704644", "nombre": "FAMOTIDINA 40MG CAJ C/10 COM(DURATER)", "precio": 490, "precio_bolsillo": 564.1538, "precio_aseguradora": 540 },
+    { "ean": "7501125177774", "nombre": "OMEPRAZOL 40MG/10ML CAJ C/1 FA(PENTREN)", "precio": 293.53, "precio_bolsillo": 319.8462, "precio_aseguradora": 336.49 },
     {
       "ean": "7730979094092",
       "nombre": "TAMSULOSINA 0.4 MG CAJ C/30 CAP(ASOFLON)",
@@ -2605,16 +1913,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ELTROMBOPAG 50MG CAJ C/28 TAB (REVOLADE)",
       "precio": 27615.29
     },
-    {
-      "ean": "8715131022631",
-      "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1 FA(MVASI)",
-      "precio": 40884.3
-    },
-    {
-      "ean": "8715131022624",
-      "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 FA(MVASI)",
-      "precio": 16953.846153846152
-    },
+    { "ean": "8715131022631", "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1 FA(MVASI)", "precio": 40884.3, "precio_bolsillo": 50308.75, "precio_aseguradora": 57495.7143 },
+    { "ean": "8715131022624", "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 FA(MVASI)", "precio": 16953.846153846152, "precio_bolsillo": 13775, "precio_aseguradora": 15742.8571 },
     {
       "ean": "7501092723189",
       "nombre": "IXAZOMIB 3MG CAJ C/3 CAP(NINLARO)",
@@ -2630,16 +1930,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "LEUPRORELINA 3.75MG CAJ C/1 FA(LORELIN)",
       "precio": 3440
     },
-    {
-      "ean": "7730979094566",
-      "nombre": "AZACITIDINA 25MG/ML CAJ C/1 FA(VIDAZA)",
-      "precio": 11730
-    },
-    {
-      "ean": "7501493980242",
-      "nombre": "METILPREDNISOLONA 500MG/8ML CAJ C/1 FA(METISONA)",
-      "precio": 169.23076923076923
-    },
+    { "ean": "7730979094566", "nombre": "AZACITIDINA 25MG/ML CAJ C/1 FA(VIDAZA)", "precio": 11730, "precio_bolsillo": 14163.75, "precio_aseguradora": 16187.1429 },
+    { "ean": "7501493980242", "nombre": "METILPREDNISOLONA 500MG/8ML CAJ C/1 FA(METISONA)", "precio": 169.23076923076923, "precio_bolsillo": 154.3538, "precio_aseguradora": 291 },
     {
       "ean": "7502213042738",
       "nombre": "SALBUTAMOL AER 100UG CAJ C/1 FRA(SALBUTAMOL)",
@@ -2725,36 +2017,20 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "MODAFINILO 200MG TAB CAJ C/28(MODIODAL)",
       "precio": 2507.14
     },
-    {
-      "ean": "3664798051520",
-      "nombre": "ISATUXIMAB 500MG/25 ML CAJ C/1 FA(SARCLISA)",
-      "precio": 0
-    },
-    {
-      "ean": "3664798051537",
-      "nombre": "ISATUXIMAB 100MG/5ML CAJ C/1 FA(SARCLISA)",
-      "precio": 0
-    },
+    { "ean": "3664798051520", "nombre": "ISATUXIMAB 500MG/25 ML CAJ C/1 FA(SARCLISA)", "precio": 0, "precio_bolsillo": 79173.9875, "precio_aseguradora": 90484.5571 },
+    { "ean": "3664798051537", "nombre": "ISATUXIMAB 100MG/5ML CAJ C/1 FA(SARCLISA)", "precio": 0, "precio_bolsillo": 15875, "precio_aseguradora": 18142.8571 },
     {
       "ean": "",
       "nombre": "CARMUTHER 100MG CAJ C/1 FA(CARMUSTINE FOR INJECTION)",
       "precio": 25900
     },
-    {
-      "ean": "7506335703539",
-      "nombre": "PEGFILGRASTIM 6MG/0.6ML JPRE CAJ C/1(PELGRAZ)",
-      "precio": 19536.02
-    },
+    { "ean": "7506335703539", "nombre": "PEGFILGRASTIM 6MG/0.6ML JPRE CAJ C/1(PELGRAZ)", "precio": 19536.02, "precio_bolsillo": 19938.4615, "precio_aseguradora": 40000 },
     {
       "ean": "",
       "nombre": "NIRAPARIB 100MG CAJ C/56 CAP(ZEJULA)",
       "precio": 25900
     },
-    {
-      "ean": "7613326024389",
-      "nombre": "POLATUZUMAB VEDOTIN 140 MG CAJ C/1 FA(POLIVY)",
-      "precio": 261250
-    },
+    { "ean": "7613326024389", "nombre": "POLATUZUMAB VEDOTIN 140 MG CAJ C/1 FA(POLIVY)", "precio": 261250, "precio_bolsillo": 319498.0875, "precio_aseguradora": 365140.6714 },
     {
       "ean": "7506429600256",
       "nombre": "TEMOZOLOMIDA 100MG CAJ C/20 CAP(TERA-CAZ)",
@@ -2775,16 +2051,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "TELMISARTAN/AMLODIPINO 80/5MG CAJ C/28 TAB(MICARDIS DUO)",
       "precio": 2327.54
     },
-    {
-      "ean": "7501871721504",
-      "nombre": "PANTOPRAZOL 40 MG CAJ C/28 TAB(ZOLTUM)",
-      "precio": 1337.92
-    },
-    {
-      "ean": "7501070635664",
-      "nombre": "DIFENIDOL 25MG CAJ C/25 TAB(VONTROL)",
-      "precio": 547.6923076923076
-    },
+    { "ean": "7501871721504", "nombre": "PANTOPRAZOL 40 MG CAJ C/28 TAB(ZOLTUM)", "precio": 1337.92, "precio_bolsillo": 1404.8308, "precio_aseguradora": 1483.91 },
+    { "ean": "7501070635664", "nombre": "DIFENIDOL 25MG CAJ C/25 TAB(VONTROL)", "precio": 547.6923076923076, "precio_bolsillo": 429.9385, "precio_aseguradora": 503 },
     {
       "ean": "7613326005845",
       "nombre": "TOCILIZUMAB 180MG/ML 0.9ML CAJ C/4 JGP(ROACTEMRA SC)",
@@ -2795,16 +2063,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "METFORMINA 500MG CAJ C/30 TAB(GLUCOPHAGE XR)",
       "precio": 589.52
     },
-    {
-      "ean": "5415062372463",
-      "nombre": "RITUXIMAB 100MG/10ML CAJ C/1 FA(RUXIENCE)",
-      "precio": 7824.4
-    },
-    {
-      "ean": "5415062372487",
-      "nombre": "RITUXIMAB 500MG/50ML CAJ C/1 FA(RUXIENCE)",
-      "precio": 21800
-    },
+    { "ean": "5415062372463", "nombre": "RITUXIMAB 100MG/10ML CAJ C/1 FA(RUXIENCE)", "precio": 7824.4, "precio_bolsillo": 6923.0769, "precio_aseguradora": 9684.42 },
+    { "ean": "5415062372487", "nombre": "RITUXIMAB 500MG/50ML CAJ C/1 FA(RUXIENCE)", "precio": 21800, "precio_bolsillo": 23538.4615, "precio_aseguradora": 41210.25 },
     {
       "ean": "7501142911306",
       "nombre": "SULFASALAZINA 500MG CAJ C/60 GRA(AZULFIDINA)",
@@ -2825,16 +2085,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DUPILUMAB 300MG/2ML INY 2 JGP(DUPIXENT)",
       "precio": 34865
     },
-    {
-      "ean": "7500463184550",
-      "nombre": "PACLITAXEL 30MG/5ML CAJ C/1 FA(NIMARIL)",
-      "precio": 425.53846153846155
-    },
-    {
-      "ean": "7798180922153",
-      "nombre": "CICLOFOSFAMIDA 200MG/10ML CAJ C/5 FA(MEXCIKEM)",
-      "precio": 3000
-    },
+    { "ean": "7500463184550", "nombre": "PACLITAXEL 30MG/5ML CAJ C/1 FA(NIMARIL)", "precio": 425.53846153846155, "precio_bolsillo": 424.6154, "precio_aseguradora": 486 },
+    { "ean": "7798180922153", "nombre": "CICLOFOSFAMIDA 200MG/10ML CAJ C/5 FA(MEXCIKEM)", "precio": 3000, "precio_bolsillo": 1312.3077, "precio_aseguradora": 1554.8 },
     {
       "ean": "4008491317061",
       "nombre": "AMANTADINA 100MG CAJ C/30 TAB(PK MERZ)",
@@ -2870,16 +2122,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CLOPIDOGREL 75MG CAJ C/28 TAB(PLAVIX)",
       "precio": 2039.15
     },
-    {
-      "ean": "7502223557055",
-      "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1 AMP(SIMBIVA)",
-      "precio": 26411
-    },
-    {
-      "ean": "7502223557048",
-      "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 AMP(SIMBIVA)",
-      "precio": 8433
-    },
+    { "ean": "7502223557055", "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1 AMP(SIMBIVA)", "precio": 26411, "precio_bolsillo": 16615.3846, "precio_aseguradora": 33241 },
+    { "ean": "7502223557048", "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 AMP(SIMBIVA)", "precio": 8433, "precio_bolsillo": 5046.1538, "precio_aseguradora": 9104 },
     {
       "ean": "7501082212297",
       "nombre": "DULOXETINA 60MG CAJ C/28 CAP(CYMBALTA)",
@@ -2900,11 +2144,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "LACOSAMIDA 200MG CAJ C/28 TAB(VIMPAT)",
       "precio": 3493.846153846154
     },
-    {
-      "ean": "7506335703553",
-      "nombre": "FILGRASTIM 300UG/0.5ML CAJ C/1 JER(GRANUVEN)",
-      "precio": 571.43
-    },
+    { "ean": "7506335703553", "nombre": "FILGRASTIM 300UG/0.5ML CAJ C/1 JER(GRANUVEN)", "precio": 571.43, "precio_bolsillo": 615.3846, "precio_aseguradora": 1300 },
     {
       "ean": "7501299306635",
       "nombre": "OMEPRAZOL 20MG DUAL CAJ C/2X7 CAP(INHIBITRON)",
@@ -2915,16 +2155,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "OMEPRAZOL 20MG DUAL CAJ C/2X14 CAP(INHIBITRON)",
       "precio": 396.5076923076923
     },
-    {
-      "ean": "7501125192128",
-      "nombre": "PROPOFOL 20MG/50ML CAJ FA(RECOFOL",
-      "precio": 1125
-    },
-    {
-      "ean": "7500463184543",
-      "nombre": "PACLITAXEL 300MG/50ML CAJ C/1 FA(NIMARIL)",
-      "precio": 2500
-    },
+    { "ean": "7501125192128", "nombre": "PROPOFOL 20MG/50ML CAJ FA(RECOFOL", "precio": 1125, "precio_bolsillo": 1139.625, "precio_aseguradora": 1302.4286 },
+    { "ean": "7500463184543", "nombre": "PACLITAXEL 300MG/50ML CAJ C/1 FA(NIMARIL)", "precio": 2500, "precio_bolsillo": 2050.7692, "precio_aseguradora": 2868 },
     {
       "ean": "8902220113435",
       "nombre": "LAMOTRIGINA DISPER 50MG CAJ C/30 TAB(TORLAMO DT)",
@@ -3005,11 +2237,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ROTIGOTINA (PARCHE) 4MG CAJ C/14 PCHE(NUBRENZA)",
       "precio": 2285
     },
-    {
-      "ean": "7501075726374",
-      "nombre": "PACLITAXEL 300MG/50ML CAJA C/1 FA (PAMEXCLI)",
-      "precio": 1626.56
-    },
+    { "ean": "7501075726374", "nombre": "PACLITAXEL 300MG/50ML CAJA C/1 FA (PAMEXCLI)", "precio": 1626.56, "precio_bolsillo": 1692.3077, "precio_aseguradora": 1626.56 },
     {
       "ean": "7501088507052",
       "nombre": "ROTIGOTINA (PARCHE) 6MG CAJ C/14 PCHE(NUBRENZA)",
@@ -3055,11 +2283,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DEXAMETASONA/NEOMICINA 0.9/3.5MG GOT C/5ML(ALIN OFT)",
       "precio": 110.95
     },
-    {
-      "ean": "7500464227911",
-      "nombre": "TRASTUZUMAB 440MG/20ML CAJ C/1 FA(HERZUMA)",
-      "precio": 19107
-    },
+    { "ean": "7500464227911", "nombre": "TRASTUZUMAB 440MG/20ML CAJ C/1 FA(HERZUMA)", "precio": 19107, "precio_bolsillo": 14029.4923, "precio_aseguradora": 13027.3857 },
     {
       "ean": "",
       "nombre": "PROPOFOL 200MG/20ML CAJ C/5 FA(FRESOFOL 1%)",
@@ -3120,21 +2344,13 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "TERIPARATIDA 250MCG/ML CAJ C/1 PLUMA C/CAR(FORTEO COLTER)",
       "precio": 11993
     },
-    {
-      "ean": "7502216936072",
-      "nombre": "APREPITANT 125/80MG CAJ C/3 CAP(IRAMENOL)",
-      "precio": 1432.44
-    },
+    { "ean": "7502216936072", "nombre": "APREPITANT 125/80MG CAJ C/3 CAP(IRAMENOL)", "precio": 1432.44, "precio_bolsillo": 1478.75, "precio_aseguradora": 1690 },
     {
       "ean": "7502245841538",
       "nombre": "NOREPINEFRINA 4MG/4ML CAJ C/1 FA(NORAVE)",
       "precio": 0
     },
-    {
-      "ean": "7501075726350",
-      "nombre": "OXALIPLATINO 100MG CAJ C/1 (KEMOXA)",
-      "precio": 1250
-    },
+    { "ean": "7501075726350", "nombre": "OXALIPLATINO 100MG CAJ C/1 (KEMOXA)", "precio": 1250, "precio_bolsillo": 1355.6154, "precio_aseguradora": 1722.24 },
     {
       "ean": "7501109930340",
       "nombre": "USTEKINUMAB 90MG/1ML CAJ C/1 FA(STELARA)",
@@ -3150,11 +2366,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "FILGRASTIM 30MCG/0.5ML CAJ C/1 JER(ZARZIO)",
       "precio": 1424.6153846153845
     },
-    {
-      "ean": "7502216935754",
-      "nombre": "PEGFILGRASTIM 6MG/0.6ML CAJ C/1 JER(ZIEXTENZO)",
-      "precio": 23783.84
-    },
+    { "ean": "7502216935754", "nombre": "PEGFILGRASTIM 6MG/0.6ML CAJ C/1 JER(ZIEXTENZO)", "precio": 23783.84, "precio_bolsillo": 21990.4875, "precio_aseguradora": 25131.9857 },
     {
       "ean": "7501314701322",
       "nombre": "CEFIXIMA 400MG CAJ C/6 CAP(BIOMICS)",
@@ -3225,11 +2437,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ENTRECTINIB 200MG CAJ C/90 CAP(ROZLYTREK)",
       "precio": 127795
     },
-    {
-      "ean": "7501299310328",
-      "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 FA(EFFIVIA)",
-      "precio": 4200
-    },
+    { "ean": "7501299310328", "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 FA(EFFIVIA)", "precio": 4200, "precio_bolsillo": 5545.3846, "precio_aseguradora": 8645 },
     {
       "ean": "7501233210004",
       "nombre": "DASATINIB 50MG CAJ C/60 TAB(SPRYCEL)",
@@ -3250,11 +2458,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "FIORELLA INY 50MG SOL 1 (CASPOFUNGINA)",
       "precio": 4535
     },
-    {
-      "ean": "7501493873872",
-      "nombre": "PARACETAMOL 1G/100ML CAJ C/1 FA(LUNAZOL)",
-      "precio": 0
-    },
+    { "ean": "7501493873872", "nombre": "PARACETAMOL 1G/100ML CAJ C/1 FA(LUNAZOL)", "precio": 0, "precio_bolsillo": 110.8462, "precio_aseguradora": 250 },
     {
       "ean": "",
       "nombre": "BENDAMUSTINE INJECTION IP 100MG(BENZZ)",
@@ -3505,36 +2709,20 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "LEVODOPA/BENSERAZIDA 100MG/25MG CAJ C/30 TAB(MADOPAR)",
       "precio": 662.72
     },
-    {
-      "ean": "7613326017749",
-      "nombre": "OCRELIZUMAB 300MG/10ML CAJ C/1 FA(OCREVUS (PROGRAMA POR TI 10%))",
-      "precio": 210506
-    },
+    { "ean": "7613326017749", "nombre": "OCRELIZUMAB 300MG/10ML CAJ C/1 FA(OCREVUS (PROGRAMA POR TI 10%))", "precio": 210506, "precio_bolsillo": 232500, "precio_aseguradora": 265714.2857 },
     {
       "ean": "7501050600071",
       "nombre": "ACETATO DE NOMOGESTROL/ESTRADIOL 2.5/1.5MG CAJ C/28 TAB(ZOELY)",
       "precio": 0
     },
-    {
-      "ean": "7613326034319",
-      "nombre": "PERTUZUMAB/TRASTUZUMAB 1200MG/600MG CAJ C/1 FRA(PHESGO)",
-      "precio": 216617
-    },
+    { "ean": "7613326034319", "nombre": "PERTUZUMAB/TRASTUZUMAB 1200MG/600MG CAJ C/1 FRA(PHESGO)", "precio": 216617, "precio_bolsillo": 266427.5, "precio_aseguradora": 304488.5714 },
     {
       "ean": "7506429600904",
       "nombre": "Uldenaliv 25 mg C/F 21 Cap",
       "precio": 59300
     },
-    {
-      "ean": "7613326034364",
-      "nombre": "PERTUZUMAB/TRASTUZUMAB 600MG/600MG CAJ C/1 FRA(PHESGO)",
-      "precio": 120723
-    },
-    {
-      "ean": "7506429600461",
-      "nombre": "FLUOROURACILO 250MG/10ML CAJ C/10 FRA(ULSACIL)",
-      "precio": 1476.923076923077
-    },
+    { "ean": "7613326034364", "nombre": "PERTUZUMAB/TRASTUZUMAB 600MG/600MG CAJ C/1 FRA(PHESGO)", "precio": 120723, "precio_bolsillo": 123125, "precio_aseguradora": 140714.2857 },
+    { "ean": "7506429600461", "nombre": "FLUOROURACILO 250MG/10ML CAJ C/10 FRA(ULSACIL)", "precio": 1476.923076923077, "precio_bolsillo": 1131.8462, "precio_aseguradora": 2729.04 },
     {
       "ean": "7501895141968",
       "nombre": "VACUNA ANTIPERTUSSIS ACELULAR 0.5ML CAJ/1 FA(ADACEL BOOST)",
@@ -3585,11 +2773,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "TRASTUZUMAB DERUXTECAN 100 MG CAJ C/1 FA(ENHERTU (PROGRAMA ASTRAZENECA 50%",
       "precio": 20380.82
     },
-    {
-      "ean": "5000456077453",
-      "nombre": "TRASTUZUMAB DERUXTECAN 100 MG CAJ C/1 FA(ENHERTU)",
-      "precio": 47240
-    },
+    { "ean": "5000456077453", "nombre": "TRASTUZUMAB DERUXTECAN 100 MG CAJ C/1 FA(ENHERTU)", "precio": 47240, "precio_bolsillo": 42799.725, "precio_aseguradora": 48913.9714 },
     {
       "ean": "",
       "nombre": "LOMUSTINA 40MG CAJ C/20 CAP(CECENU)",
@@ -3640,16 +2824,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "GILTERITINIB 40MG CAJ C/90 TAB (XOSPATA)",
       "precio": 0
     },
-    {
-      "ean": "7501299310335",
-      "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1(EFFIVIA)",
-      "precio": 12650
-    },
-    {
-      "ean": "7501125115639",
-      "nombre": "HEPARINA 5000UI/10ML CAJ FA(INHEPAR)",
-      "precio": 390
-    },
+    { "ean": "7501299310335", "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1(EFFIVIA)", "precio": 12650, "precio_bolsillo": 15615.3846, "precio_aseguradora": 31546.2 },
+    { "ean": "7501125115639", "nombre": "HEPARINA 5000UI/10ML CAJ FA(INHEPAR)", "precio": 390, "precio_bolsillo": 488.6462, "precio_aseguradora": 518 },
     {
       "ean": "7502251890704",
       "nombre": "MITOXANTRONA 20MG/10ML CAJ C/1 FA(TONAXTEN)",
@@ -3670,11 +2846,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CAPMATINIB 200MG CAJ C/56 TAB (TABRECTA)",
       "precio": 275127.6
     },
-    {
-      "ean": "7506335703560",
-      "nombre": "FILGRASTIM 300MCG(30MU)/0.5ML CAJ C/5 JER(GRANUVEN)",
-      "precio": 5538.461538461538
-    },
+    { "ean": "7506335703560", "nombre": "FILGRASTIM 300MCG(30MU)/0.5ML CAJ C/5 JER(GRANUVEN)", "precio": 5538.461538461538, "precio_bolsillo": 3146.8462, "precio_aseguradora": 6300 },
     {
       "ean": "7501109930135",
       "nombre": "HALOPERIDOL 2 MG/ML 30ML CAJ C/1 FA(HALDOL)",
@@ -3690,11 +2862,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "MICOFENOLATO SODICO 360MG CAJ C/120 TAB(MYFORTIC)",
       "precio": 14049.45
     },
-    {
-      "ean": "7501299309698",
-      "nombre": "ESOMEPRAZOL 40 MG CAJ C/ 1 FA(TRONIUM IV)",
-      "precio": 282.26153846153846
-    },
+    { "ean": "7501299309698", "nombre": "ESOMEPRAZOL 40 MG CAJ C/ 1 FA(TRONIUM IV)", "precio": 282.26153846153846, "precio_bolsillo": 196.9231, "precio_aseguradora": 305 },
     {
       "ean": "7506022327635",
       "nombre": "SALBUTAMOL AEROSOL 100MCG CAJ C/1 F C/200 DOSIS(BRESALTEC)",
@@ -3710,11 +2878,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "IVOSIDENIB 250MG CAJ C/60 TAB(TIBSOVO)",
       "precio": 0
     },
-    {
-      "ean": "5415062379998",
-      "nombre": "BEVACIZUMAB 400 MG/16 ML CAJ C/1 FA(ZIRABEV)",
-      "precio": 36855.2
-    },
+    { "ean": "5415062379998", "nombre": "BEVACIZUMAB 400 MG/16 ML CAJ C/1 FA(ZIRABEV)", "precio": 36855.2, "precio_bolsillo": 23147.7385, "precio_aseguradora": 39497.3 },
     {
       "ean": "7501027800114",
       "nombre": "VACUNA ANTIINFLUENZA 5ML CAJA C/10 FA(FLUZACTAL TETRA)",
@@ -3725,16 +2889,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ESCITALOPRAM 20MG CAJ C/14 TAB(LEXAPRO)",
       "precio": 2014.29
     },
-    {
-      "ean": "7613326005623",
-      "nombre": "KADCYLA 160 MG F A 1X8ML",
-      "precio": 83769
-    },
-    {
-      "ean": "7613326005616",
-      "nombre": "TRASTUZUMAB EMTANSINA 100MG/5ML CAJ C/1(KADCYLA)",
-      "precio": 52357
-    },
+    { "ean": "7613326005623", "nombre": "KADCYLA 160 MG F A 1X8ML", "precio": 83769, "precio_bolsillo": 98501.375, "precio_aseguradora": 112573.0000 },
+    { "ean": "7613326005616", "nombre": "TRASTUZUMAB EMTANSINA 100MG/5ML CAJ C/1(KADCYLA)", "precio": 52357, "precio_bolsillo": 64396.25, "precio_aseguradora": 73595.7143 },
     {
       "ean": "7500464460608",
       "nombre": "PROPOFOL 200MG/20ML CAJ C/5 AMP(PRIGADEF)",
@@ -3835,11 +2991,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ENCORAFENIB 75MG CAJ C/42 CAPS(BRAFTOVI)",
       "precio": 65003.95
     },
-    {
-      "ean": "7613326017749",
-      "nombre": "OCRELIZUMAB 300MG/10ML CAJ C/1 FA(OCREVUS (PROGRAMA POR TI 20%))",
-      "precio": 210506
-    },
+    { "ean": "7613326017749", "nombre": "OCRELIZUMAB 300MG/10ML CAJ C/1 FA(OCREVUS (PROGRAMA POR TI 20%))", "precio": 210506, "precio_bolsillo": 232500, "precio_aseguradora": 265714.2857 },
     {
       "ean": "7730979099431",
       "nombre": "ZANUBRUTINIB 80 MG CAJ C/120 CAP(BRUKINSA)",
@@ -3870,11 +3022,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "INDOMETACINA 60MG CAJ C/20 CAP(ANTALGIN)",
       "precio": 261.43
     },
-    {
-      "ean": "7506335703515",
-      "nombre": "CICLOFOSFAMIDA 500 MG CAJ C/1 FAM(CYATA)",
-      "precio": 2515.3846153846152
-    },
+    { "ean": "7506335703515", "nombre": "CICLOFOSFAMIDA 500 MG CAJ C/1 FAM(CYATA)", "precio": 2515.3846153846152, "precio_bolsillo": 1646.1538, "precio_aseguradora": 2000 },
     {
       "ean": "7502223557000",
       "nombre": "SUNITINIB 12.5 MG CAJ C/28 CAP (CARENEV)",
@@ -3915,11 +3063,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "DACOMITINIB 45MG FCO C/30 TAB(VIZIMPRO)",
       "precio": 44394.53
     },
-    {
-      "ean": "7506429600300",
-      "nombre": "CARBOPLATINO 150 MG FCO CAJ C/1(PLACART)",
-      "precio": 414.21
-    },
+    { "ean": "7506429600300", "nombre": "CARBOPLATINO 150 MG FCO CAJ C/1(PLACART)", "precio": 414.21, "precio_bolsillo": 461.5385, "precio_aseguradora": 1414.64 },
     {
       "ean": "7501124819170",
       "nombre": "SECUKINUMAB 150MG/ML CAJ C/1 JPRE (COSENTYX)",
@@ -3935,31 +3079,15 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "GOLIMUMAB 100MG /1ML CAJ C/1 JPRE(SIMPONI)",
       "precio": 34427
     },
-    {
-      "ean": "7506335701511",
-      "nombre": "DOXORUBICINA 10MG/5ML CAJ C/1 FA(ZODOX)",
-      "precio": 548.1538461538462
-    },
+    { "ean": "7506335701511", "nombre": "DOXORUBICINA 10MG/5ML CAJ C/1 FA(ZODOX)", "precio": 548.1538461538462, "precio_bolsillo": 430.7692, "precio_aseguradora": 500 },
     {
       "ean": "7506335702099",
       "nombre": "MITOXANTRONA 20 MG/10 ML CAJ C/1 FA(BRESNIX)",
       "precio": 2999
     },
-    {
-      "ean": "7500464227935",
-      "nombre": "RITUXIMAB 100MG/10ML CAJ C/2 FA(BLITZIMA)",
-      "precio": 12116.92
-    },
-    {
-      "ean": "7500464227942",
-      "nombre": "RITUXIMAB 500MG/50ML CAJ C/1 FA(BLITZIMA)",
-      "precio": 12698.42
-    },
-    {
-      "ean": "5415062379134",
-      "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 FA(ZIRABEV)",
-      "precio": 10200
-    },
+    { "ean": "7500464227935", "nombre": "RITUXIMAB 100MG/10ML CAJ C/2 FA(BLITZIMA)", "precio": 12116.92, "precio_bolsillo": 12230.7692, "precio_aseguradora": 12000 },
+    { "ean": "7500464227942", "nombre": "RITUXIMAB 500MG/50ML CAJ C/1 FA(BLITZIMA)", "precio": 12698.42, "precio_bolsillo": 25910.7692, "precio_aseguradora": 30000 },
+    { "ean": "5415062379134", "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 FA(ZIRABEV)", "precio": 10200, "precio_bolsillo": 7319.1231, "precio_aseguradora": 11431 },
     {
       "ean": "7501493802254",
       "nombre": "ERTAPENEM 1G/10 ML CAJ C/1 FA (FINATAK)",
@@ -4330,11 +3458,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "VALACICLOVIR 500MG CAJ C/42 COM(VALEXTRA)",
       "precio": 2220.75
     },
-    {
-      "ean": "7502246642011",
-      "nombre": "PARACETAMOL/ORFENADRINA 450MG/35MG CAJ C/30 CAP(NORFLEX PLUS GB)",
-      "precio": 723.89
-    },
+    { "ean": "7502246642011", "nombre": "PARACETAMOL/ORFENADRINA 450MG/35MG CAJ C/30 CAP(NORFLEX PLUS GB)", "precio": 723.89, "precio_bolsillo": 783.0769, "precio_aseguradora": 828 },
     {
       "ean": "7613326005487",
       "nombre": "MICOFENOLATO DE MOFETILO 500MG CAJ C/50 COM (CELLCEPT)",
@@ -4385,11 +3509,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "BEZAFIBRATO 200MG CAJ C/30 TAB(ZAF)",
       "precio": 270.7692307692308
     },
-    {
-      "ean": "8901120009930",
-      "nombre": "PARACETAMOL/TRAMADOL 325/37.5 MG CAJ C/20 TAB(TRAPAZYD)",
-      "precio": 472.30769230769226
-    },
+    { "ean": "8901120009930", "nombre": "PARACETAMOL/TRAMADOL 325/37.5 MG CAJ C/20 TAB(TRAPAZYD)", "precio": 472.30769230769226, "precio_bolsillo": 509.0769, "precio_aseguradora": 558.93 },
     {
       "ean": "7501314704040",
       "nombre": "SUCRALFATO 1GR CAJ C/40 TAB (UNIVAL)",
@@ -4570,16 +3690,8 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ADAGRASIB 200MG CAJ C/180(KRAZATI)",
       "precio": 0
     },
-    {
-      "ean": "7501041990006",
-      "nombre": "NIVOLUMAB 100MG/10ML CAJ C/1 FA(OPDIVO)",
-      "precio": 45298
-    },
-    {
-      "ean": "7501041990013",
-      "nombre": "NIVOLUMAB 40MG/4ML CAJ C/1 FA(OPDIVO)",
-      "precio": 18155.9
-    },
+    { "ean": "7501041990006", "nombre": "NIVOLUMAB 100MG/10ML CAJ C/1 FA(OPDIVO)", "precio": 45298, "precio_bolsillo": 47325.4750, "precio_aseguradora": 54086.2571 },
+    { "ean": "7501041990013", "nombre": "NIVOLUMAB 40MG/4ML CAJ C/1 FA(OPDIVO)", "precio": 18155.9, "precio_bolsillo": 19024.5, "precio_aseguradora": 21742.2857 },
     {
       "ean": "IMPORTADO 18",
       "nombre": "MITOMICINA 40MG CAJ C/1 FA(MITOMYCIN)",
@@ -4595,21 +3707,13 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "BICARNAT BICARBONATO DE SODIO PISA 100 AMPOLLETAS 7.5% (10ML)",
       "precio": 0
     },
-    {
-      "ean": "7501493874695",
-      "nombre": "DIFENHIDRAMINA SOL. INYECTABLE 10MG CAJ C/1 (DIFENHISTAT)",
-      "precio": 156.9230769230769
-    },
+    { "ean": "7501493874695", "nombre": "DIFENHIDRAMINA SOL. INYECTABLE 10MG CAJ C/1 (DIFENHISTAT)", "precio": 156.9230769230769, "precio_bolsillo": 144.6154, "precio_aseguradora": 540 },
     {
       "ean": "7502253073945",
       "nombre": "PERFALGAN 1G SOL INY FCO 100ML",
       "precio": 246.47
     },
-    {
-      "ean": "7502253073952",
-      "nombre": "PERFALGAN 1G SOLINY C/4FCOS100ML(PERFALGAN)",
-      "precio": 970.04
-    },
+    { "ean": "7502253073952", "nombre": "PERFALGAN 1G SOLINY C/4FCOS100ML(PERFALGAN)", "precio": 970.04, "precio_bolsillo": 809.8750, "precio_aseguradora": 925.5714 },
     {
       "ean": "7501125123702",
       "nombre": "CLORURO DE POTASIO 1.49 G/5ML CAJ C/1 FA(KELEFUSIN)",
@@ -4625,11 +3729,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ENALADIL 10MG C/30 TAB",
       "precio": 0
     },
-    {
-      "ean": "7501165011632",
-      "nombre": "BUSCAPINA COMPOSITUM 10MG TAB",
-      "precio": 581.23
-    },
+    { "ean": "7501165011632", "nombre": "BUSCAPINA COMPOSITUM 10MG TAB", "precio": 581.23, "precio_bolsillo": 669.2308, "precio_aseguradora": 626.38 },
     {
       "ean": "7501493868915",
       "nombre": "COMVUFEN FENITOINA KENER 1 AMPOLLETA 250MG / 5ML",
@@ -4640,11 +3740,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "ASPIRINA 500 MG TAB",
       "precio": 43.17
     },
-    {
-      "ean": "7501165011632",
-      "nombre": "BUSCAPINA COMPOSITUM 10MG TAB",
-      "precio": 581.23
-    },
+    { "ean": "7501165011632", "nombre": "BUSCAPINA COMPOSITUM 10MG TAB", "precio": 581.23, "precio_bolsillo": 669.2308, "precio_aseguradora": 626.38 },
     {
       "ean": "7501008499382",
       "nombre": "FLANAX 550MG TAB",
@@ -4680,11 +3776,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "FONTANIVIO 5MG C/14TAB NVO TLJ",
       "precio": 579.49
     },
-    {
-      "ean": "7501125160646",
-      "nombre": "VINZA 0.5MG/2.5MG C/2.5ML 10AMP SNEB",
-      "precio": 413.8461538461538
-    },
+    { "ean": "7501125160646", "nombre": "VINZA 0.5MG/2.5MG C/2.5ML 10AMP SNEB", "precio": 413.8461538461538, "precio_bolsillo": 297.7385, "precio_aseguradora": 370.05 },
     {
       "ean": "",
       "nombre": " SOLUCIÓN SALINA AL 0.9% DE 1 LITRO",
@@ -4720,11 +3812,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "Pisdeno (adenosina) 6 mg/ 2 mL sol iny caja c/6",
       "precio": 2208.6
     },
-    {
-      "ean": "7501125187612",
-      "nombre": "Pisazol (tramadol) 100 mg/ 2 mL sol iny c/5",
-      "precio": 598
-    },
+    { "ean": "7501125187612", "nombre": "Pisazol (tramadol) 100 mg/ 2 mL sol iny c/5", "precio": 598, "precio_bolsillo": 523.125, "precio_aseguradora": 597.8571 },
     {
       "ean": "7501125187612-1",
       "nombre": "Pisazol (tramadol) 100 mg/ 2 mL sol iny c/5",
@@ -4735,11 +3823,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "Pinadrina (adrenalina) 1 mg/ 1 mL sol iny caja c/100",
       "precio": 486.9
     },
-    {
-      "ean": "7501125113123",
-      "nombre": "Onemer (ketorolaco) 30 g/ mL sol iny c/3",
-      "precio": 123.94
-    },
+    { "ean": "7501125113123", "nombre": "Onemer (ketorolaco) 30 g/ mL sol iny c/3", "precio": 123.94, "precio_bolsillo": 191.0769, "precio_aseguradora": 178.08 },
     {
       "ean": "7501125103377",
       "nombre": "Nodescrom (bromuro de rocuronio) 4 mg sol iny c/50",
@@ -4765,31 +3849,15 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "CLORURO DE POTASIO 1.49ML/5ML AMP C/100 (KELEFUSIN)",
       "precio": 2009.3
     },
-    {
-      "ean": "7501125115646",
-      "nombre": "HEPARINA 10000UI/10ML CAJ C/20 FA(INHEPAR)",
-      "precio": 2028
-    },
-    {
-      "ean": "7501125115622",
-      "nombre": "HEPARINA 5000UI/5ML CAJA (INHEPAR)",
-      "precio": 241.68
-    },
+    { "ean": "7501125115646", "nombre": "HEPARINA 10000UI/10ML CAJ C/20 FA(INHEPAR)", "precio": 2028, "precio_bolsillo": 1901.25, "precio_aseguradora": 2172.8571 },
+    { "ean": "7501125115622", "nombre": "HEPARINA 5000UI/5ML CAJA (INHEPAR)", "precio": 241.68, "precio_bolsillo": 230.625, "precio_aseguradora": 263.5714 },
     {
       "ean": "7501125166662-1",
       "nombre": "HIDROCORTISONA (HIDROCORTISONA) 100 MG SOL INY 1 PZA",
       "precio": 48
     },
-    {
-      "ean": "7501125166662",
-      "nombre": "Hidrocortisona (hidrocortisona) 100 mg sol iny c/50",
-      "precio": 1848
-    },
-    {
-      "ean": "7501125124563",
-      "nombre": "Henexal (furosemida) 20mg/2 mL sol iny c/5",
-      "precio": 96
-    },
+    { "ean": "7501125166662", "nombre": "Hidrocortisona (hidrocortisona) 100 mg sol iny c/50", "precio": 1848, "precio_bolsillo": 1732.5, "precio_aseguradora": 1980.0000 },
+    { "ean": "7501125124563", "nombre": "Henexal (furosemida) 20mg/2 mL sol iny c/5", "precio": 96, "precio_bolsillo": 90, "precio_aseguradora": 102.8571 },
     {
       "ean": "7502268541729",
       "nombre": "Gluconato de calcio (gluconato de calcio) 10% sol iny amp 10 mL",
@@ -4850,11 +3918,7 @@ window.SANARE_PRE_COT_DATA = {
       "nombre": "Antivon (ondansetrón) 8 mg /4 mL sol iny c/1",
       "precio": 360
     },
-    {
-      "ean": "7501165008328",
-      "nombre": "CABAZITAXEL 60MG/1.5ML CAJ C/1 FA(JEVTANA)",
-      "precio": 153750
-    }
+    { "ean": "7501165008328", "nombre": "CABAZITAXEL 60MG/1.5ML CAJ C/1 FA(JEVTANA)", "precio": 153750, "precio_bolsillo": 155406.25, "precio_aseguradora": 177607.1429 }
   ],
   "servicios": [
     {
@@ -5240,3 +4304,4 @@ window.SANARE_PRE_COT_DATA = {
     "Calle General Pedro María Anaya no. 551, col. Chapultepec Sur, municipio Morelia, Edo. Michoacán, CP. 58260"
   ]
 };
+
