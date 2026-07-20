@@ -2122,7 +2122,7 @@
       "nombre": "CLOPIDOGREL 75MG CAJ C/28 TAB(PLAVIX)",
       "precio": 2039.15
     },
-    { "ean": "7502223557055", "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1 AMP(SIMBIVA)", "precio": 26411, "precio_bolsillo": 16615.3846, "precio_aseguradora": 33241 },
+    { "ean": "7502223557055", "nombre": "BEVACIZUMAB 400MG/16ML CAJ C/1 AMP(SIMBIVA)", "precio": 26411, "precio_bolsillo": 15429.00, "precio_aseguradora": 33241 },
     { "ean": "7502223557048", "nombre": "BEVACIZUMAB 100MG/4ML CAJ C/1 AMP(SIMBIVA)", "precio": 8433, "precio_bolsillo": 5046.1538, "precio_aseguradora": 9104 },
     {
       "ean": "7501082212297",
